@@ -8,7 +8,7 @@ alias ll="la -hog"
 
 alias cl="clear"
 
-alias dotF="git --git-dir=${HOME}/.dotfiles/ --work-tree=${HOME}"
+alias dotF="git --git-dir=${HOME}/.dotbare/ --work-tree=${HOME}"
 
 alias wget="wget --hsts-file=${XDG_DATA_HOME}/wget-hsts"
 
