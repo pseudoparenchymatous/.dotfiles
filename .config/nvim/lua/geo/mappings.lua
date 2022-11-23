@@ -4,7 +4,7 @@ mapkey('', '<Space>', '<Nop>')
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
-mapkey('!', '<C-c>', '<Esc>')
+mapkey('i', '<C-c>', '<Esc>')
 
 -- insert mode motions
 mapkey('i', '<C-e>', '<End>')

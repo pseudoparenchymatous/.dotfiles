@@ -11,17 +11,11 @@ require 'nvim-treesitter.configs'.setup {
    autopairs = { enable = true },
    indent = { enable = true },
    context_commentstring = {
-    enable = true,
-    enable_autocmd = false,
-   },
-
-   rainbow = {
       enable = true,
-      extended_mode = true,
-      max_file_lines = nil,
+      enable_autocmd = false,
    },
 
-   incremental_selection = { enable = true },
+   incremental_selection = { enable = false },
    textobjects = { enable = true },
    playground = {
       enable = true,
@@ -41,8 +35,4 @@ require 'nvim-treesitter.configs'.setup {
          show_help = '?',
       },
    }
-}
-
-require 'treesitter-context'.setup {
-   enable = true,
 }

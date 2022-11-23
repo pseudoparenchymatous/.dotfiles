@@ -13,10 +13,8 @@ require 'mason'.setup {
 local cmp_cap = require 'cmp_nvim_lsp'.default_capabilities(
    vim.lsp.protocol.make_client_capabilities())
 
-require 'mason-lspconfig'.setup()
 
-local lspconfig = require 'lspconfig'
-local mappings = function(_, bufnr)
+local on_attach = function(client, bufnr)
    local bufopts = { silent = true, buffer = bufnr }
    vim.keymap.set('n', 'ge', vim.diagnostic.open_float, bufopts)
    vim.keymap.set('n', 'gn', vim.diagnostic.goto_next, bufopts)
@@ -30,20 +28,26 @@ local mappings = function(_, bufnr)
    vim.keymap.set('n', '<Leader>ca', vim.lsp.buf.code_action, bufopts)
    vim.keymap.set('n', 'gr', vim.lsp.buf.references, bufopts)
    vim.keymap.set('n', '<Leader>f', vim.lsp.buf.format, bufopts)
+
+   if client.server_capabilities.documentSymbolProvider then
+        require 'nvim-navic'.attach(client, bufnr)
+    end
 end
 
+require 'mason-lspconfig'.setup()
+local lspconfig = require 'lspconfig'
 require 'mason-lspconfig'.setup_handlers {
    function(server_name) -- default handler
       lspconfig[server_name].setup {
          capabilities = cmp_cap,
-         on_attach = mappings,
+         on_attach = on_attach,
       }
    end,
 }
 
 lspconfig.sumneko_lua.setup {
    capabilities = cmp_cap,
-   on_attach = mappings,
+   on_attach = on_attach,
    settings = {
       Lua = {
          runtime = {
@@ -63,7 +67,7 @@ lspconfig.sumneko_lua.setup {
 }
 
 lspconfig.rust_analyzer.setup {
-   on_attach = mappings,
+   on_attach = on_attach,
 }
 
 require 'lspconfig.ui.windows'.default_options.border = 'single'

@@ -84,7 +84,7 @@ cmp.setup {
       end, { 'i', 'c' }),
       ['<C-Space>'] = cmp.mapping(
          cmp.mapping.complete(), { 'i', 'c' }),
-      ['<C-c>'] = cmp.mapping(function(fallback)
+      ['<C-e>'] = cmp.mapping(function(fallback)
          if cmp.visible() then
             cmp.abort()
          else

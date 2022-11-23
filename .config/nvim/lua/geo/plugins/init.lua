@@ -24,47 +24,73 @@ end
 local packer_bootstrap = ensure_packer()
 ]]
 
-vim.api.nvim_create_augroup('packer_user_config', { clear = true })
-vim.api.nvim_create_autocmd('BufWritePost', {
-   group = 'packer_user_config',
-   pattern = 'plugins.lua',
-   command = 'source <afile> | PackerSync'
-})
-
 return require 'packer'.startup {
    function(use)
       use 'wbthomason/packer.nvim'
 
       use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' ,
+         -- config = 'return require "geo.treesitter"',
+         -- config = function()
+         --    return require 'geo.treesitter'
+         -- end,
+
          requires = {
-            { 'nvim-treesitter/nvim-treesitter-context', },
-            { 'nvim-treesitter/playground', },
-            { 'p00f/nvim-ts-rainbow', },
+            { 'nvim-treesitter/playground',
+               opt = true,
+            },
+
+            { 'nvim-treesitter/nvim-treesitter-context',
+               opt = true,
+               config = function()
+                  return require 'geo.treesitter.context'
+               end,
+            },
+
+            { 'p00f/nvim-ts-rainbow',
+               config = function()
+                  return require 'geo.treesitter.rainbow'
+               end,
+            },
+
+            { 'nvim-treesitter/nvim-treesitter-textobjects',
+               config = function()
+                  return require 'geo.treesitter.textobjects'
+               end,
+            }
          },
+      }
+
+      use { 'kylechui/nvim-surround',
          config = function()
-            return require 'geo.treesitter'
+            return require 'geo.plugins.nvim-surround'
          end,
       }
 
       use { 'neovim/nvim-lspconfig',
+         config = function()
+            return require 'geo.lsp'
+         end,
+
          requires = {
             { 'williamboman/mason.nvim' },
             { 'williamboman/mason-lspconfig.nvim' },
             { 'j-hui/fidget.nvim' },
+            { 'SmiteshP/nvim-navic' },
          },
-         config = function()
-            return require 'geo.lsp'
-         end,
       }
 
       use { 'jose-elias-alvarez/null-ls.nvim',
          config = function()
-            return require 'geo.null-ls'
+            return require 'geo.plugins.null-ls'
          end,
          requires = { 'nvim-lua/plenary.nvim' },
       }
 
       use { 'hrsh7th/nvim-cmp',
+         config = function()
+            return require 'geo.plugins.cmp'
+         end,
+
          requires = {
             { 'L3MON4D3/LuaSnip', requires = { 'saadparwaiz1/cmp_luasnip' } },
             {
@@ -76,16 +102,13 @@ return require 'packer'.startup {
                'hrsh7th/cmp-nvim-lua',
             },
          },
-         config = function()
-            return require 'geo.cmp'
-         end,
       }
 
       use { 'mattn/emmet-vim',
-         opt = true,
          ft = 'html',
+         cmd = 'EmmetInstall',
          setup = function()
-            return require 'geo.emmet'
+            return require 'geo.plugins.emmet'
          end,
          config = function()
             vim.api.nvim_create_autocmd('FileType', {
@@ -97,56 +120,66 @@ return require 'packer'.startup {
 
       use { 'numToStr/Comment.nvim',
          config = function()
-            return require 'geo.comment'
+            return require 'geo.plugins.comment'
          end,
       }
 
       use { 'nvim-tree/nvim-tree.lua',
-         config = function()
-            return require 'geo.nvim-tree'
-         end,
+         config = 'require "geo.plugins.nvim-tree"',
+         -- config = function()
+         --    print 'tree'
+         --    return require 'geo.nvim-tree'
+         -- end,
          requires = {
             'nvim-tree/nvim-web-devicons',
             config = function()
-               return require 'geo.devicons'
+               return require 'geo.plugins.devicons'
             end,
          },
       }
 
       use { 'nvim-lualine/lualine.nvim',
          config = function()
-            return require 'geo.lualine'
+            return require 'geo.plugins.lualine'
          end,
       }
 
       use { 'windwp/nvim-autopairs',
          config = function()
-            return require 'geo.autopairs'
+            return require 'geo.plugins.autopairs'
          end,
       }
 
       use { 'lukas-reineke/indent-blankline.nvim',
          config = function()
-            return require 'geo.indentline'
+            return require 'geo.plugins.indentline'
          end,
       }
 
       use { 'ethanholz/nvim-lastplace',
          config = function()
-            return require 'geo.lastplace'
+            return require 'geo.plugins.lastplace'
          end,
       }
 
       use { 'LhKipp/nvim-nu', run = ':TSInstall nu',
          config = function()
-            return require 'geo.nu'
+            return require 'geo.plugins.nu'
          end,
       }
 
-      use 'folke/tokyonight.nvim'
-      use 'sainnhe/edge'
-      use 'Mofiqul/dracula.nvim'
-      use 'ellisonleao/gruvbox.nvim'
+      use { 'folke/tokyonight.nvim',
+         -- cmd = {
+         --    'colo tokyonight',
+         --    'colorscheme tokyonight'
+         -- },
+         -- setup = function()
+         --    return require 'tokyonight'
+         -- end
+      }
+      use { 'sainnhe/edge', }
+      use { 'Mofiqul/dracula.nvim', }
+      use { 'ellisonleao/gruvbox.nvim', }
       use 'sainnhe/gruvbox-material'
 
       --[[if packer_bootstrap then
