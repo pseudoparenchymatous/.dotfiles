@@ -13,8 +13,7 @@ require 'mason'.setup {
 local cmp_cap = require 'cmp_nvim_lsp'.default_capabilities(
    vim.lsp.protocol.make_client_capabilities())
 
-
-local on_attach = function(client, bufnr)
+local on_attach = function(_, bufnr)
    local bufopts = { silent = true, buffer = bufnr }
    vim.keymap.set('n', 'ge', vim.diagnostic.open_float, bufopts)
    vim.keymap.set('n', 'gn', vim.diagnostic.goto_next, bufopts)
@@ -29,9 +28,6 @@ local on_attach = function(client, bufnr)
    vim.keymap.set('n', 'gr', vim.lsp.buf.references, bufopts)
    vim.keymap.set('n', '<Leader>f', vim.lsp.buf.format, bufopts)
 
-   if client.server_capabilities.documentSymbolProvider then
-        require 'nvim-navic'.attach(client, bufnr)
-    end
 end
 
 require 'mason-lspconfig'.setup()

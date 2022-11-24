@@ -28,11 +28,10 @@ return require 'packer'.startup {
    function(use)
       use 'wbthomason/packer.nvim'
 
-      use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' ,
-         -- config = 'return require "geo.treesitter"',
-         -- config = function()
-         --    return require 'geo.treesitter'
-         -- end,
+      use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate',
+         config = function()
+            return require 'geo.treesitter'
+         end,
 
          requires = {
             { 'nvim-treesitter/playground',
@@ -60,12 +59,6 @@ return require 'packer'.startup {
          },
       }
 
-      use { 'kylechui/nvim-surround',
-         config = function()
-            return require 'geo.plugins.nvim-surround'
-         end,
-      }
-
       use { 'neovim/nvim-lspconfig',
          config = function()
             return require 'geo.lsp'
@@ -75,7 +68,6 @@ return require 'packer'.startup {
             { 'williamboman/mason.nvim' },
             { 'williamboman/mason-lspconfig.nvim' },
             { 'j-hui/fidget.nvim' },
-            { 'SmiteshP/nvim-navic' },
          },
       }
 
@@ -102,6 +94,23 @@ return require 'packer'.startup {
                'hrsh7th/cmp-nvim-lua',
             },
          },
+      }
+
+      use { 'kylechui/nvim-surround',
+         config = function()
+            return require 'geo.plugins.nvim-surround'
+         end,
+      }
+
+      use { 'utilyre/barbecue.nvim',
+         config = function()
+            return require 'geo.plugins.barbecue'
+         end,
+
+         requires = {
+            { 'SmiteshP/nvim-navic' },
+         },
+         after = 'nvim-lspconfig',
       }
 
       use { 'mattn/emmet-vim',
@@ -191,7 +200,7 @@ return require 'packer'.startup {
       display = {
          open_fn = function()
             return require 'packer.util'
-               .float { border = 'single' }
+                .float { border = 'single' }
          end
       }
    }
