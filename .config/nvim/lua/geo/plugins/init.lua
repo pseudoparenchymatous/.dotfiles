@@ -1,4 +1,3 @@
---[[
 local ensure_packer = function()
    local fn = vim.fn
    local install_path = fn.stdpath 'data' .. '/site/pack/packer/start/packer.nvim'
@@ -22,7 +21,6 @@ local ensure_packer = function()
 end
 
 local packer_bootstrap = ensure_packer()
-]]
 
 return require 'packer'.startup {
    function(use)
@@ -110,7 +108,6 @@ return require 'packer'.startup {
          requires = {
             { 'SmiteshP/nvim-navic' },
          },
-         after = 'nvim-lspconfig',
       }
 
       use { 'mattn/emmet-vim',
@@ -191,9 +188,9 @@ return require 'packer'.startup {
       use { 'ellisonleao/gruvbox.nvim', }
       use 'sainnhe/gruvbox-material'
 
-      --[[if packer_bootstrap then
+     if packer_bootstrap then
          require 'packer'.sync()
-      end]]
+      end
    end,
 
    config = {

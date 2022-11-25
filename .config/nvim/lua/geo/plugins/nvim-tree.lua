@@ -21,7 +21,7 @@ require 'nvim-tree'.setup {
       mapkey('n', 'p', nt.fs.paste, { buffer = bufnr })
       mapkey('n', 'r', nt.fs.rename_sub, { buffer = bufnr })
       mapkey('n', 'n', nt.fs.create, { buffer = bufnr })
-      mapkey('n', 'd', nt.fs.remove, { buffer = bufnr })
+      mapkey('n', '<S-d>', nt.fs.remove, { buffer = bufnr })
       mapkey('n', 'f', nt.tree.search_node, { buffer = bufnr })
    end
 }

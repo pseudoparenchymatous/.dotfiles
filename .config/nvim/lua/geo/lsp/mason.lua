@@ -62,8 +62,8 @@ lspconfig.sumneko_lua.setup {
    },
 }
 
-lspconfig.rust_analyzer.setup {
-   on_attach = on_attach,
-}
+-- lspconfig.rust_analyzer.setup {
+--    on_attach = on_attach,
+-- }
 
 require 'lspconfig.ui.windows'.default_options.border = 'single'
