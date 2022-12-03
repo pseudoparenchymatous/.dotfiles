@@ -1,4 +1,4 @@
---disable builtin plugins
+-- Disable builtin plugins
 vim.g.loaded_netrw            = 1
 vim.g.loaded_netrwPlugin      = 1
 vim.g.loaded_gzip             = 1
@@ -12,7 +12,7 @@ vim.g.loaded_zipPlugin        = 1
 vim.g.loaded_zip              = 1
 
 require 'geo.autocommands'
-require 'geo.mappings'
+require 'geo.keymaps'
 require 'geo.options'
 require 'geo.plugins'
 require 'geo.colorschemes'

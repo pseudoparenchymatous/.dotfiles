@@ -15,7 +15,6 @@ local my_options = {
    relativenumber = true,
    hlsearch = false,
    termguicolors = true,
-   cursorline = true,
    guicursor = { 'i:block' },
    splitbelow = true,
    splitright = true,
@@ -34,7 +33,6 @@ local my_options = {
    pumheight = 7,
    showmode = false,
    clipboard = 'unnamedplus',
-   autochdir = true,
 }
 
 for option, value in pairs(my_options) do
