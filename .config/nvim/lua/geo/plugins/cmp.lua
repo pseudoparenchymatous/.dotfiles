@@ -3,34 +3,6 @@
 --    return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
 -- end
 
-local kind_icons = {
-   Text = "",
-   Method = "",
-   Function = "",
-   Constructor = "",
-   Field = "",
-   Variable = "",
-   Class = "ﴯ",
-   Interface = "",
-   Module = "",
-   Property = "ﰠ",
-   Unit = "",
-   Value = "",
-   Enum = "",
-   Keyword = "",
-   Snippet = "",
-   Color = "",
-   File = "",
-   Reference = "",
-   Folder = "",
-   EnumMember = "",
-   Constant = "",
-   Struct = "",
-   Event = "",
-   Operator = "",
-   TypeParameter = "",
-}
-
 require 'luasnip.loaders.from_vscode'.lazy_load()
 local cmp = require 'cmp'
 local luasnip = require 'luasnip'
@@ -80,7 +52,9 @@ cmp.setup {
    formatting = {
       fields = { "kind", "abbr", "menu" },
       format = function(entry, vim_item)
-         vim_item.kind = string.format('%s', kind_icons[vim_item.kind])
+         vim_item.kind = string.format(
+            '%s', require 'geo.icons'[vim_item.kind])
+         vim_item.abbr = string.sub(vim_item.abbr, 1, 20)
          vim_item.menu = ({
             nvim_lsp = "[LSP]",
             luasnip = "[SNIP]",

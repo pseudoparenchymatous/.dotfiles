@@ -24,7 +24,6 @@ local my_options = {
    shiftwidth = 3,
    softtabstop = 3,
    expandtab = true,
-   smarttab = true,
    autoindent = true,
    smartindent = true,
    cindent = true,
@@ -32,7 +31,7 @@ local my_options = {
    completeopt = { 'menu', 'menuone', 'preview', 'noinsert', 'noselect' },
    pumheight = 7,
    showmode = false,
-   clipboard = 'unnamedplus',
+   swapfile = false,
 }
 
 for option, value in pairs(my_options) do

@@ -18,5 +18,4 @@ return function(bufnr)
    mapkey('n', '<S-d>', nt.fs.remove, { buffer = bufnr })
    mapkey('n', 'f', nt.tree.search_node, { buffer = bufnr })
    mapkey('n', 'q', nt.tree.close, { buffer = bufnr })
-   mapkey('n', '<Leader>e', nt.tree.toggle)
 end

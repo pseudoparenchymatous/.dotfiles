@@ -3,17 +3,16 @@ require 'nvim-tree'.setup {
    remove_keymaps = true,
    hijack_cursor = true,
    create_in_closed_folder = true,
-   -- prefer_startup_root = true,
-   update_focused_file = {
-      enable = true,
-      -- update_root = true,
+   notify = {
+      threshold = vim.log.levels.WARN,
    },
    view = {
       hide_root_folder = true,
       side = 'right',
    },
    on_attach = function(bufnr)
-      require 'geo.keymaps.plugins.nvim-tree'(bufnr)
+      require 'geo.keymaps.plugins.nvim-tree' (bufnr)
+      require 'geo.autocommands.nvim-tree' (bufnr)
    end,
    renderer = {
       indent_markers = {

@@ -6,6 +6,8 @@ vim.g.maplocalleader = ' '
 
 mapkey('i', '<C-c>', '<Esc>')
 
+mapkey('n', '<Leader><S-E>', '<Cmd>NvimTreeToggle<CR>')
+
 -- insert mode motions
 mapkey('i', '<C-e>', '<End>')
 mapkey('i', '<C-a>', '<Home>')
@@ -13,6 +15,14 @@ mapkey({ 'i', 'c' }, '<A-h>', '<Left>')
 mapkey('i', '<A-j>', '<Down>')
 mapkey('i', '<A-k>', '<Up>')
 mapkey({ 'i', 'c' }, '<A-l>', '<Right>')
+mapkey({ 'i', 'c' }, '<A-w>', '<C-Right>')
+mapkey({ 'i', 'c' }, '<A-b>', '<C-Left>')
+
+-- improve scrolling
+mapkey('n', '<C-d>', '<C-d>zz')
+mapkey('n', '<C-u>', '<C-u>zz')
+mapkey('n', '<C-f>', '<C-f>zz')
+mapkey('n', '<C-b>', '<C-b>zz')
 
 -- move between windows
 mapkey('n', '<C-k>', '<C-w>k')
@@ -48,5 +58,9 @@ vim.api.nvim_create_autocmd('FileType', {
    pattern = 'help',
    callback = function(arg)
       mapkey('n', 'q', '<C-w>c', { buffer = arg.buf })
+      mapkey('n', 'd', '<C-d>zz', { buffer = arg.buf })
+      mapkey('n', 'u', '<C-u>zz', { buffer = arg.buf })
+      mapkey('n', 'f', '<C-f>zz', { buffer = arg.buf })
+      mapkey('n', 'b', '<C-b>zz', { buffer = arg.buf })
    end,
 })

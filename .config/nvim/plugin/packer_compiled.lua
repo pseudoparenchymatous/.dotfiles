@@ -85,6 +85,12 @@ _G.packer_plugins = {
     path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["barbar.nvim"] = {
+    config = { 'require "geo.plugins.barbar"' },
+    loaded = true,
+    path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/start/barbar.nvim",
+    url = "https://github.com/romgrk/barbar.nvim"
+  },
   ["barbecue.nvim"] = {
     config = { 'require "geo.plugins.barbecue"' },
     loaded = true,
@@ -135,7 +141,7 @@ _G.packer_plugins = {
   },
   ["emmet-vim"] = {
     commands = { "EmmetInstall" },
-    config = { "\27LJ\2\nm\0\0\4\0\5\0\a6\0\0\0009\0\1\0009\0\2\0'\2\3\0005\3\4\0B\0\3\1K\0\1\0\1\0\2\fpattern\thtml\fcommand\17EmmetInstall\rFileType\24nvim_create_autocmd\bapi\bvim\0" },
+    config = { "\27LJ\2\nm\0\0\4\0\5\0\a6\0\0\0009\0\1\0009\0\2\0'\2\3\0005\3\4\0B\0\3\1K\0\1\0\1\0\2\fcommand\17EmmetInstall\fpattern\thtml\rFileType\24nvim_create_autocmd\bapi\bvim\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
@@ -168,6 +174,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
+  ["kdl.vim"] = {
+    loaded = true,
+    path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/start/kdl.vim",
+    url = "https://github.com/imsnif/kdl.vim"
   },
   ["lualine.nvim"] = {
     config = { 'require "geo.plugins.lualine"' },
@@ -309,6 +320,12 @@ _G.packer_plugins = {
     needs_bufread = false,
     path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/opt/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["vim-lion"] = {
+    config = { 'require "geo.plugins.lion"' },
+    loaded = true,
+    path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/start/vim-lion",
+    url = "https://github.com/tommcdo/vim-lion"
   }
 }
 
@@ -317,18 +334,50 @@ time([[Defining packer_plugins]], false)
 time([[Setup for emmet-vim]], true)
 require "geo.plugins.emmet"
 time([[Setup for emmet-vim]], false)
--- Config for: nvim-treesitter-textobjects
-time([[Config for nvim-treesitter-textobjects]], true)
-require "geo.treesitter.textobjects"
-time([[Config for nvim-treesitter-textobjects]], false)
--- Config for: nvim-autopairs
-time([[Config for nvim-autopairs]], true)
-require "geo.plugins.autopairs"
-time([[Config for nvim-autopairs]], false)
+-- Config for: Comment.nvim
+time([[Config for Comment.nvim]], true)
+require "geo.plugins.comment"
+time([[Config for Comment.nvim]], false)
+-- Config for: nvim-tree.lua
+time([[Config for nvim-tree.lua]], true)
+require "geo.plugins.nvim-tree"
+time([[Config for nvim-tree.lua]], false)
 -- Config for: nvim-lspconfig
 time([[Config for nvim-lspconfig]], true)
 require "geo.lsp"
 time([[Config for nvim-lspconfig]], false)
+-- Config for: lualine.nvim
+time([[Config for lualine.nvim]], true)
+require "geo.plugins.lualine"
+time([[Config for lualine.nvim]], false)
+-- Config for: nvim-treesitter
+time([[Config for nvim-treesitter]], true)
+require "geo.treesitter"
+time([[Config for nvim-treesitter]], false)
+-- Config for: nvim-autopairs
+time([[Config for nvim-autopairs]], true)
+require "geo.plugins.autopairs"
+time([[Config for nvim-autopairs]], false)
+-- Config for: barbar.nvim
+time([[Config for barbar.nvim]], true)
+require "geo.plugins.barbar"
+time([[Config for barbar.nvim]], false)
+-- Config for: nvim-web-devicons
+time([[Config for nvim-web-devicons]], true)
+require "geo.plugins.devicons"
+time([[Config for nvim-web-devicons]], false)
+-- Config for: nvim-treesitter-textobjects
+time([[Config for nvim-treesitter-textobjects]], true)
+require "geo.treesitter.textobjects"
+time([[Config for nvim-treesitter-textobjects]], false)
+-- Config for: barbecue.nvim
+time([[Config for barbecue.nvim]], true)
+require "geo.plugins.barbecue"
+time([[Config for barbecue.nvim]], false)
+-- Config for: nvim-surround
+time([[Config for nvim-surround]], true)
+require "geo.plugins.nvim-surround"
+time([[Config for nvim-surround]], false)
 -- Config for: nvim-ts-rainbow
 time([[Config for nvim-ts-rainbow]], true)
 require "geo.treesitter.rainbow"
@@ -337,46 +386,28 @@ time([[Config for nvim-ts-rainbow]], false)
 time([[Config for nvim-cmp]], true)
 require "geo.plugins.cmp"
 time([[Config for nvim-cmp]], false)
--- Config for: barbecue.nvim
-time([[Config for barbecue.nvim]], true)
-require "geo.plugins.barbecue"
-time([[Config for barbecue.nvim]], false)
--- Config for: nvim-web-devicons
-time([[Config for nvim-web-devicons]], true)
-require "geo.plugins.devicons"
-time([[Config for nvim-web-devicons]], false)
--- Config for: nvim-tree.lua
-time([[Config for nvim-tree.lua]], true)
-require "geo.plugins.nvim-tree"
-time([[Config for nvim-tree.lua]], false)
--- Config for: nvim-treesitter
-time([[Config for nvim-treesitter]], true)
-require "geo.treesitter"
-time([[Config for nvim-treesitter]], false)
--- Config for: nvim-surround
-time([[Config for nvim-surround]], true)
-require "geo.plugins.nvim-surround"
-time([[Config for nvim-surround]], false)
--- Config for: lualine.nvim
-time([[Config for lualine.nvim]], true)
-require "geo.plugins.lualine"
-time([[Config for lualine.nvim]], false)
 -- Config for: indent-blankline.nvim
 time([[Config for indent-blankline.nvim]], true)
 require "geo.plugins.indentline"
 time([[Config for indent-blankline.nvim]], false)
+-- Config for: vim-lion
+time([[Config for vim-lion]], true)
+require "geo.plugins.lion"
+time([[Config for vim-lion]], false)
 -- Config for: nvim-lastplace
 time([[Config for nvim-lastplace]], true)
 require "geo.plugins.lastplace"
 time([[Config for nvim-lastplace]], false)
--- Config for: Comment.nvim
-time([[Config for Comment.nvim]], true)
-require "geo.plugins.comment"
-time([[Config for Comment.nvim]], false)
 
 -- Command lazy-loads
 time([[Defining lazy-load commands]], true)
-pcall(vim.cmd, [[command -nargs=* -range -bang -complete=file EmmetInstall lua require("packer.load")({'emmet-vim'}, { cmd = "EmmetInstall", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args>, mods = "<mods>" }, _G.packer_plugins)]])
+pcall(vim.api.nvim_create_user_command, 'EmmetInstall', function(cmdargs)
+          require('packer.load')({'emmet-vim'}, { cmd = 'EmmetInstall', l1 = cmdargs.line1, l2 = cmdargs.line2, bang = cmdargs.bang, args = cmdargs.args, mods = cmdargs.mods }, _G.packer_plugins)
+        end,
+        {nargs = '*', range = true, bang = true, complete = function()
+          require('packer.load')({'emmet-vim'}, { cmd = 'EmmetInstall' }, _G.packer_plugins)
+          return vim.fn.getcompletion('EmmetInstall ', 'cmdline')
+      end})
 time([[Defining lazy-load commands]], false)
 
 vim.cmd [[augroup packer_load_aucmds]]
@@ -384,8 +415,8 @@ vim.cmd [[au!]]
   -- Filetype lazy-loads
 time([[Defining lazy-load filetype autocommands]], true)
 vim.cmd [[au FileType rust ++once lua require("packer.load")({'rust-tools.nvim'}, { ft = "rust" }, _G.packer_plugins)]]
-vim.cmd [[au FileType html ++once lua require("packer.load")({'emmet-vim'}, { ft = "html" }, _G.packer_plugins)]]
 vim.cmd [[au FileType nu ++once lua require("packer.load")({'nvim-nu'}, { ft = "nu" }, _G.packer_plugins)]]
+vim.cmd [[au FileType html ++once lua require("packer.load")({'emmet-vim'}, { ft = "html" }, _G.packer_plugins)]]
 time([[Defining lazy-load filetype autocommands]], false)
 vim.cmd("augroup END")
 vim.cmd [[augroup filetypedetect]]

@@ -5,23 +5,24 @@ vim.api.nvim_create_autocmd('BufWritePost', {
    command = 'source <afile> | PackerCompile'
 })
 
-vim.api.nvim_create_augroup('CursorLine', { clear = true })
+vim.api.nvim_create_augroup('cursorline', { clear = true })
 vim.api.nvim_create_autocmd({ 'VimEnter', 'WinEnter', 'BufWinEnter' }, {
-   group = 'CursorLine',
+   group = 'cursorline',
    pattern = '*',
    command = 'setlocal cursorline'
 })
 vim.api.nvim_create_autocmd('WinLeave', {
-   group = 'CursorLine',
+   group = 'cursorline',
    pattern = '*',
    command = 'setlocal nocursorline'
 })
-vim.api.nvim_create_augroup('ch_cwd', { clear = true })
-vim.api.nvim_create_autocmd('BufEnter',{
-   group = 'ch_cwd',
-   pattern = '*',
-   command = 'silent! lcd %:p:h',
-})
+
+-- vim.api.nvim_create_augroup('ch_cwd', { clear = true })
+-- vim.api.nvim_create_autocmd('BufEnter',{
+--    group = 'ch_cwd',
+--    pattern = '*',
+--    command = 'silent! lcd %:p:h',
+-- })
 -- vim.api.nvim_create_augroup('cursor_blink', { clear = true })
 -- vim.api.nvim_create_autocmd({ 'InsertEnter', 'CmdlineEnter' }, {
 --    group = 'cursor_blink',

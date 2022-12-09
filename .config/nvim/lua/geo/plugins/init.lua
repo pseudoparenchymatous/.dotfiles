@@ -84,8 +84,21 @@ return require 'packer'.startup {
          },
       }
 
+      use { 'folke/noice.nvim',
+         disable = true,
+         config = 'require "geo.plugins.noice"',
+         requires = {
+            'MunifTanjim/nui.nvim',
+            'rcarriga/nvim-notify'
+         },
+      }
+
       use { 'kylechui/nvim-surround',
          config = 'require "geo.plugins.nvim-surround"',
+      }
+
+      use { 'tommcdo/vim-lion',
+         config = 'require "geo.plugins.lion"',
       }
 
       use { 'utilyre/barbecue.nvim',
@@ -117,6 +130,10 @@ return require 'packer'.startup {
          },
       }
 
+      use { 'romgrk/barbar.nvim',
+         config = 'require "geo.plugins.barbar"',
+      }
+
       use { 'nvim-lualine/lualine.nvim',
          config = 'require "geo.plugins.lualine"',
       }
@@ -144,6 +161,7 @@ return require 'packer'.startup {
       use { 'Mofiqul/dracula.nvim', opt = true, }
       use { 'ellisonleao/gruvbox.nvim', opt = true, }
       use 'sainnhe/gruvbox-material'
+      use 'imsnif/kdl.vim'
 
       -- if packer_bootstrap then
       --    require 'packer'.sync()

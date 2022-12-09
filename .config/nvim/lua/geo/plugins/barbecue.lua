@@ -1,1 +1,3 @@
-require 'barbecue'.setup {}
+require 'barbecue'.setup {
+   kinds = require 'geo.icons'
+}
