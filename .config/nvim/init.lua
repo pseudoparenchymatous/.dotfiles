@@ -10,6 +10,7 @@ vim.g.loaded_vimballPlugin    = 1
 vim.g.loaded_vimball          = 1
 vim.g.loaded_zipPlugin        = 1
 vim.g.loaded_zip              = 1
+vim.g.loaded_2html_plugin     = 1
 
 require 'geo.autocommands'
 require 'geo.keymaps'
