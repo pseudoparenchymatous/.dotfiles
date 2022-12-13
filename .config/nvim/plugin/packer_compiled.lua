@@ -176,8 +176,10 @@ _G.packer_plugins = {
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
   ["kdl.vim"] = {
-    loaded = true,
-    path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/start/kdl.vim",
+    loaded = false,
+    needs_bufread = true,
+    only_cond = false,
+    path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/opt/kdl.vim",
     url = "https://github.com/imsnif/kdl.vim"
   },
   ["lualine.nvim"] = {
@@ -197,8 +199,9 @@ _G.packer_plugins = {
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["null-ls.nvim"] = {
-    after = { "plenary.nvim" },
-    config = { 'require "geo.plugins.null-ls"' },
+    load_after = {
+      ["nvim-nu"] = true
+    },
     loaded = false,
     needs_bufread = false,
     path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/opt/null-ls.nvim",
@@ -236,6 +239,7 @@ _G.packer_plugins = {
     url = "https://github.com/SmiteshP/nvim-navic"
   },
   ["nvim-nu"] = {
+    after = { "null-ls.nvim" },
     config = { 'require "geo.plugins.nu"' },
     loaded = false,
     needs_bufread = true,
@@ -298,12 +302,8 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-treesitter/playground"
   },
   ["plenary.nvim"] = {
-    load_after = {
-      ["null-ls.nvim"] = true
-    },
-    loaded = false,
-    needs_bufread = false,
-    path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/opt/plenary.nvim",
+    loaded = true,
+    path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["rust-tools.nvim"] = {
@@ -314,6 +314,12 @@ _G.packer_plugins = {
     only_cond = false,
     path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/opt/rust-tools.nvim",
     url = "https://github.com/simrat39/rust-tools.nvim"
+  },
+  ["telescope.nvim"] = {
+    config = { 'require "geo.plugins.telescope"' },
+    loaded = true,
+    path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["tokyonight.nvim"] = {
     loaded = false,
@@ -338,34 +344,18 @@ time([[Setup for emmet-vim]], false)
 time([[Config for Comment.nvim]], true)
 require "geo.plugins.comment"
 time([[Config for Comment.nvim]], false)
--- Config for: nvim-tree.lua
-time([[Config for nvim-tree.lua]], true)
-require "geo.plugins.nvim-tree"
-time([[Config for nvim-tree.lua]], false)
--- Config for: nvim-lspconfig
-time([[Config for nvim-lspconfig]], true)
-require "geo.lsp"
-time([[Config for nvim-lspconfig]], false)
--- Config for: lualine.nvim
-time([[Config for lualine.nvim]], true)
-require "geo.plugins.lualine"
-time([[Config for lualine.nvim]], false)
+-- Config for: vim-lion
+time([[Config for vim-lion]], true)
+require "geo.plugins.lion"
+time([[Config for vim-lion]], false)
 -- Config for: nvim-treesitter
 time([[Config for nvim-treesitter]], true)
 require "geo.treesitter"
 time([[Config for nvim-treesitter]], false)
--- Config for: nvim-autopairs
-time([[Config for nvim-autopairs]], true)
-require "geo.plugins.autopairs"
-time([[Config for nvim-autopairs]], false)
 -- Config for: barbar.nvim
 time([[Config for barbar.nvim]], true)
 require "geo.plugins.barbar"
 time([[Config for barbar.nvim]], false)
--- Config for: nvim-web-devicons
-time([[Config for nvim-web-devicons]], true)
-require "geo.plugins.devicons"
-time([[Config for nvim-web-devicons]], false)
 -- Config for: nvim-treesitter-textobjects
 time([[Config for nvim-treesitter-textobjects]], true)
 require "geo.treesitter.textobjects"
@@ -374,10 +364,10 @@ time([[Config for nvim-treesitter-textobjects]], false)
 time([[Config for barbecue.nvim]], true)
 require "geo.plugins.barbecue"
 time([[Config for barbecue.nvim]], false)
--- Config for: nvim-surround
-time([[Config for nvim-surround]], true)
-require "geo.plugins.nvim-surround"
-time([[Config for nvim-surround]], false)
+-- Config for: nvim-autopairs
+time([[Config for nvim-autopairs]], true)
+require "geo.plugins.autopairs"
+time([[Config for nvim-autopairs]], false)
 -- Config for: nvim-ts-rainbow
 time([[Config for nvim-ts-rainbow]], true)
 require "geo.treesitter.rainbow"
@@ -386,18 +376,38 @@ time([[Config for nvim-ts-rainbow]], false)
 time([[Config for nvim-cmp]], true)
 require "geo.plugins.cmp"
 time([[Config for nvim-cmp]], false)
--- Config for: indent-blankline.nvim
-time([[Config for indent-blankline.nvim]], true)
-require "geo.plugins.indentline"
-time([[Config for indent-blankline.nvim]], false)
--- Config for: vim-lion
-time([[Config for vim-lion]], true)
-require "geo.plugins.lion"
-time([[Config for vim-lion]], false)
+-- Config for: nvim-web-devicons
+time([[Config for nvim-web-devicons]], true)
+require "geo.plugins.devicons"
+time([[Config for nvim-web-devicons]], false)
 -- Config for: nvim-lastplace
 time([[Config for nvim-lastplace]], true)
 require "geo.plugins.lastplace"
 time([[Config for nvim-lastplace]], false)
+-- Config for: nvim-lspconfig
+time([[Config for nvim-lspconfig]], true)
+require "geo.lsp"
+time([[Config for nvim-lspconfig]], false)
+-- Config for: indent-blankline.nvim
+time([[Config for indent-blankline.nvim]], true)
+require "geo.plugins.indentline"
+time([[Config for indent-blankline.nvim]], false)
+-- Config for: telescope.nvim
+time([[Config for telescope.nvim]], true)
+require "geo.plugins.telescope"
+time([[Config for telescope.nvim]], false)
+-- Config for: nvim-surround
+time([[Config for nvim-surround]], true)
+require "geo.plugins.nvim-surround"
+time([[Config for nvim-surround]], false)
+-- Config for: lualine.nvim
+time([[Config for lualine.nvim]], true)
+require "geo.plugins.lualine"
+time([[Config for lualine.nvim]], false)
+-- Config for: nvim-tree.lua
+time([[Config for nvim-tree.lua]], true)
+require "geo.plugins.nvim-tree"
+time([[Config for nvim-tree.lua]], false)
 
 -- Command lazy-loads
 time([[Defining lazy-load commands]], true)
@@ -414,15 +424,19 @@ vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
   -- Filetype lazy-loads
 time([[Defining lazy-load filetype autocommands]], true)
-vim.cmd [[au FileType rust ++once lua require("packer.load")({'rust-tools.nvim'}, { ft = "rust" }, _G.packer_plugins)]]
 vim.cmd [[au FileType nu ++once lua require("packer.load")({'nvim-nu'}, { ft = "nu" }, _G.packer_plugins)]]
 vim.cmd [[au FileType html ++once lua require("packer.load")({'emmet-vim'}, { ft = "html" }, _G.packer_plugins)]]
+vim.cmd [[au FileType kdl ++once lua require("packer.load")({'kdl.vim'}, { ft = "kdl" }, _G.packer_plugins)]]
+vim.cmd [[au FileType rust ++once lua require("packer.load")({'rust-tools.nvim'}, { ft = "rust" }, _G.packer_plugins)]]
 time([[Defining lazy-load filetype autocommands]], false)
 vim.cmd("augroup END")
 vim.cmd [[augroup filetypedetect]]
 time([[Sourcing ftdetect script at: /data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/opt/nvim-nu/ftdetect/ftdetect.vim]], true)
 vim.cmd [[source /data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/opt/nvim-nu/ftdetect/ftdetect.vim]]
 time([[Sourcing ftdetect script at: /data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/opt/nvim-nu/ftdetect/ftdetect.vim]], false)
+time([[Sourcing ftdetect script at: /data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/opt/kdl.vim/ftdetect/kdl.vim]], true)
+vim.cmd [[source /data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/opt/kdl.vim/ftdetect/kdl.vim]]
+time([[Sourcing ftdetect script at: /data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/opt/kdl.vim/ftdetect/kdl.vim]], false)
 vim.cmd("augroup END")
 
 _G._packer.inside_compile = false
