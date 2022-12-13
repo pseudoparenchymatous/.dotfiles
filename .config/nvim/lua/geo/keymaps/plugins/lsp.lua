@@ -2,7 +2,7 @@ return function(bufnr)
 	local bufopts = { silent = true, buffer = bufnr }
    local floatopts = { border = 'solid' }
 
-	vim.keymap.set('n', '<Leader>e', function()
+	vim.keymap.set('n', '<Leader><S-E>', function()
       vim.diagnostic.open_float(floatopts)
 	end, bufopts)
 
