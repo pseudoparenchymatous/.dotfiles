@@ -1,16 +1,13 @@
-theme = "onedark"
+theme = "gruvbox"
 
 [editor]
+rulers = [80]
+scrolloff = 5
 color-modes = true
 cursorline = true
 line-number = "relative"
-mouse = false
 true-color = true
-
-[editor.cursor-shape]
-insert = "bar"
-normal = "block"
-select = "underline"
+auto-format = false
 
 [editor.file-picker]
 hidden = false
@@ -18,12 +15,10 @@ hidden = false
 [editor.indent-guides]
 render = true
 
-[editor.search]
-wrap-around = false
+[editor.lsp]
+display-messages = true
 
 [editor.statusline]
-left = ["mode", "spinner"]
+left = ["mode", "spinner", "diagnostics"]
 center = ["file-name", "spacer"]
-right = ["diagnostics", "selections", "position-percentage", "position", "file-encoding", "file-line-ending", "file-type"]
-separator = "│"
-
+right = ["file-type", "position-percentage", "position"]
