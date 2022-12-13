@@ -1,5 +1,6 @@
 require 'fidget'.setup {
-   text = {
-      spinner = 'dots_negative',
-   }
+    text = {
+        spinner = 'dots_negative',
+        done = '',
+    }
 }
