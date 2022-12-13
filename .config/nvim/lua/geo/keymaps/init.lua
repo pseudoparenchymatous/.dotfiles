@@ -54,13 +54,11 @@ mapkey('n', '<S-h>', '<Cmd>bp<CR>')
 
 vim.api.nvim_create_augroup('helpfile_user_maps', { clear = true })
 vim.api.nvim_create_autocmd('FileType', {
-   group = 'helpfile_user_maps',
-   pattern = 'help',
-   callback = function(arg)
-      mapkey('n', 'q', '<C-w>c', { buffer = arg.buf })
-      mapkey('n', 'd', '<C-d>zz', { buffer = arg.buf })
-      mapkey('n', 'u', '<C-u>zz', { buffer = arg.buf })
-      mapkey('n', 'f', '<C-f>zz', { buffer = arg.buf })
-      mapkey('n', 'b', '<C-b>zz', { buffer = arg.buf })
-   end,
+    group = 'helpfile_user_maps',
+    pattern = 'help',
+    callback = function(arg)
+        mapkey('n', 'q', '<C-w>c', { buffer = arg.buf })
+        mapkey('n', 'd', '<C-d>zz', { buffer = arg.buf })
+        mapkey('n', 'u', '<C-u>zz', { buffer = arg.buf })
+    end,
 })
