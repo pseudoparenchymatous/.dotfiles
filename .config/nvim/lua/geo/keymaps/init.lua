@@ -6,7 +6,7 @@ vim.g.maplocalleader = ' '
 
 mapkey('i', '<C-c>', '<Esc>')
 
-mapkey('n', '<Leader><S-E>', '<Cmd>NvimTreeToggle<CR>')
+mapkey('n', '<Leader>e', '<Cmd>NvimTreeToggle<CR>')
 
 -- insert mode motions
 mapkey('i', '<C-e>', '<End>')
