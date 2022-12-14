@@ -11,6 +11,10 @@ require 'lspconfig'.sumneko_lua.setup {
             diagnostics = {
                 globals = { 'vim' }
             },
+            hint = {
+                enable = true,
+                setType = true
+            },
             -- workspace = {
             --     library = vim.api.nvim_get_runtime_file('', true),
             -- },
