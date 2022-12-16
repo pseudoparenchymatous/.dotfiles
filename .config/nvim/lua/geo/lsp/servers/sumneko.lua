@@ -15,9 +15,15 @@ require 'lspconfig'.sumneko_lua.setup {
                 enable = true,
                 setType = true
             },
-            -- workspace = {
-            --     library = vim.api.nvim_get_runtime_file('', true),
-            -- },
+            workspace = {
+                -- library = vim.api.nvim_get_runtime_file('', true),
+                library = vim.split(
+                    vim.fn.glob(
+                        '~/.local/share/nvim/site/pack/packer/start/*'
+                    ),
+                    '\n'
+                )
+            },
             telemetry = {
                 enable = false
             },
