@@ -8,6 +8,12 @@ mapkey('i', '<C-c>', '<Esc>')
 
 mapkey('n', '<Leader>e', '<Cmd>NvimTreeToggle<CR>')
 
+-- system clipboard
+mapkey('n', '<Leader>d', '"+d')
+mapkey('n', '<Leader>y', '"+y')
+mapkey('n', '<Leader>p', '"+p')
+mapkey('n', '<Leader>P', '"+P')
+
 -- insert mode motions
 mapkey('i', '<C-e>', '<End>')
 mapkey('i', '<C-a>', '<Home>')
