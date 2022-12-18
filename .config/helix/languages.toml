@@ -1,0 +1,11 @@
+[[language]]
+name = "lua"
+file-types = [ "lua" ]
+
+    [language.language-server]
+    command = "lua-language-server"
+
+
+[language.config.Lua.diagnostics]
+globals = [ "vim" ]
+telemetry.enable = false
