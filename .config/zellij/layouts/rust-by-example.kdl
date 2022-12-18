@@ -1,0 +1,23 @@
+layout {
+    
+    tab \
+    name="Rust by example" \
+    cwd="/data/data/com.termux/files/home/projects/rust/rust-by-example" \
+    {
+        pane {
+            name "Neovim"
+            command "nvim"
+            args "."
+            focus true
+        }
+        pane {
+            name "Fish"
+            size 10
+        }
+        pane {
+            size 1
+            borderless true
+            plugin location="zellij:compact-bar"
+        }
+    }
+}
