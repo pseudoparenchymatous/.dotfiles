@@ -1,0 +1,9 @@
+(
+    shift: Some("SHIFT-"),
+    enter: Some("ENTER"),
+    esc: Some("ESC"),
+    control: Some("CTRL-"),
+    alt: Some("ALT-"),
+    tab: Some("TAB"),
+    back_tab: Some("S-TAB"),
+)
