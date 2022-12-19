@@ -9,6 +9,11 @@ local cmp = require 'cmp'
 local luasnip = require 'luasnip'
 cmp.setup {
     enabled = function()
+        -- disable in telescope 
+        if vim.bo.filetype == "TelescopePrompt" then
+            return false
+        end
+
         -- disable completion in comments
         local context = require 'cmp.config.context'
         -- keep command mode completion enabled when cursor is in a comment
