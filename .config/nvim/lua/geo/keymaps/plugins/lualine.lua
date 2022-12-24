@@ -1,4 +1,4 @@
-vim.keymap.set('n', '<A-r>', function()
+vim.keymap.set({'n', 'i'}, '<A-r>', function()
     local into = {
         location = 'progress',
         progress = 'location'
