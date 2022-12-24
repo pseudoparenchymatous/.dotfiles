@@ -1,5 +1,5 @@
 require 'geo.autocommands.telescope'
-require 'geo.keymaps.plugins.telescope'
+
 
 require 'telescope'.setup {
     defaults = {
@@ -7,5 +7,6 @@ require 'telescope'.setup {
         selection_caret = '  ',
         multi_icon = '+ ',
         entry_prefix = '   ',
+        mappings = require 'geo.keymaps.plugins.telescope',
     }
 }
