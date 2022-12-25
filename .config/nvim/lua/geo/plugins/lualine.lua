@@ -19,7 +19,7 @@ require 'lualine'.setup {
     },
     sections = {
         lualine_a = { { 'mode', padding = 0, fmt = function() return ' ' end, } },
-        lualine_b = { 'branch', 'diff' },
+        lualine_b = { { 'branch', icon = '' } },
         lualine_c = {
             { 'diagnostics', separator = '', padding = { right = 0, left = 1 } },
             { lsp_name, separator = '' }
