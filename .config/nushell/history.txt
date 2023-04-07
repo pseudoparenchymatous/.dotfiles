@@ -1,0 +1,422 @@
+exec nu
+zellij
+zj
+cd .config/
+cd nushell/
+ls
+echo $nu.env-path
+echo $nu
+echo $nu.scope
+echo $nu.scope.commands
+echo $nu.scope.vars
+echo $nu.scope
+echo $nu.engine_state
+echo $nu.vars
+echo $nu.scope.engine_state
+ls
+mkdir scripts
+nvim scripts/aliases.nu
+nv
+nvim .config/nushell/config.nu
+nvim .config/nushell/env.nu
+nv
+nvim .config/nushell/config.nu
+nv
+echo $nu
+nvim .config/nushell/config.nu
+source help
+source --help
+config nu
+$env
+cd $home
+cd $HOME
+cd $TMPDIR
+cd $env.TMPDIR
+cd -
+cd $env.HOME
+nvim .config/nushell/config.nu
+nv
+config nu
+nv .config/nushell/config.nu
+nv .config/nushell/config.n
+nv .config/nushell/config.nu
+nv .config/nushell/env.nu
+config nu
+nvrc
+zsh
+fisd
+nvrc
+nv
+nvrc
+nv
+nvrc
+nv
+path help
+help path
+$env
+nvrc
+nv
+config nu
+nv
+$env
+"~/.config" | path expand | echo
+echo "~/.config" | path expand 
+nv
+help source
+help script
+help scripts
+$env
+ls 
+ls -a 
+^ls 
+^ls ~
+cd .config/
+ls 
+ls ~
+^ls ~
+echo ~
+^echo ~
+echo '~'
+echo "~"
+echo `~`
+echo $~
+echo $'~'
+echo $"~"
+echo $`~`
+$env
+config nu
+fish
+zellij
+(~)
+echo (~)
+echo $(~)
+echo '(~l'
+echo '(~l)'
+echo "(~)"
+echo ($env)
+echo ($env.HOME)
+config nu
+env
+config env
+zj
+fis
+fish 
+env
+$env
+echo glob
+glob ~ | echo
+echo (glob ~)
+echo (glob ~/.config)
+help glob
+echo (glob "~/.local/share")
+echo (glob "/.local/share")
+config env
+cat .config/nushell/env.nu
+$env.GOPATH
+cat .config/nushell/env.nu
+$env.GOPATH
+nu --version
+cd .config/nushell/
+pwd
+cat .config/nushell/env.nu
+cat env.nu
+$env.GOPATH
+nu --version
+$env.PATH
+cat env.nu
+cat .config/nushell/env.nu
+help mut
+fish 
+$env
+dui
+fish
+dotF status
+dotF diff
+cl
+clear
+zellij
+zj
+config env
+config nu
+vj
+upd
+config nu
+echo (glob "/.local/share")
+i starship
+config env
+ls -a
+cd .cache/starship/
+ls
+nv init.nu
+echo (starship init nu)
+save -h
+nvim .cache/starship/init.nu
+ls
+config nu
+ls -a
+ls -l
+ls -al
+c\
+config nu
+ls
+ll
+la
+ls
+cl
+clear
+starship preset nerd-font-symbols > ~/.config/starship.toml
+fish
+cd .config/nvim/
+..
+cd
+cd projects/rust/book/minigrep/
+zj
+nvim init.nu
+env nu
+cd projects/rust/book/minigrep/
+git status
+..
+cd
+cd -
+cd
+cd -
+cd add_department/
+..
+cd projects/rust/book/minigrep/
+la
+rm test.sh
+cat ~/.config/starship.toml
+cluar
+clear 
+fish
+config nu
+ls
+zj
+ls
+config nu
+what whe fuck
+cp .cache/starship/init.nu .config/nushell/
+cd .config/nushell/
+ls
+config nu
+mv .config/nushell/init.nu .config/nushell/starship.nu
+zj
+nvrc
+config nu
+nv
+config nu
+nv
+config nu
+nv
+config nu
+nvrc
+nv
+upd
+fish -V
+fish --version
+nala info fish
+ls
+vj
+zj
+clear
+ls
+nvrc
+gitui --help
+cd repos/
+cd lualine.nvim/doc/
+..
+git status
+git push
+gitui
+ssh-add --help
+help ssh-agent
+ssh-agent --help
+help ssh
+ssh --help
+man ssh
+cd repos/lualine.nvim/
+gitui
+eval
+ssh-add ~/.ssh/id_ed25519
+ssh-agent -s
+ssh-add ~/.ssh/id_ed25519
+ssh-agent 
+bash
+ssh-agent 
+ssh-agent -c
+ssh-agent -c | lines | echo
+help transpose
+config nu
+cd
+zj
+ssh-agent -c | lines | first 2 | parse "setenv {name} {value};" | transpose -i -r -d | load-env
+config nu
+ ssh-agent -c | table
+ssh-agent -c | lines | first 2 | table
+termux-api-start 
+cd repos/lualine.nvim
+gitui
+nu-ssh 
+gitui
+ssh-add ~/.ssh/id_ed25519
+gitui
+config nu
+bat
+nala search carapace
+i carapase
+i carapace
+mkdir debs
+cd debs/
+wget https://github.com/rsteube/carapace-bin/releases/download/v0.23.0/carapace-bin_0.23.0_linux_386.termux.deb
+ls
+rm carapace-bin_0.23.0_linux_386.termux.de
+rm carapace-bin_0.23.0_linux_386.termux.deb
+curl https://github.com/rsteube/carapace-bin/releases/download/v0.23.0/carapace-bin_0.23.0_linux_arm64.termux.deb
+ls
+wget https://github.com/rsteube/carapace-bin/releases/download/v0.23.0/carapace-bin_0.23.0_linux_arm64.termux.deb
+ls
+uname
+uname -m
+uname --
+man uname
+uname -a
+ls
+config nu
+..
+zj
+man dpkg
+man ssh
+man ssh_config
+nv .ssh/config
+cd repos/lualine.nvi
+cd repos/lualine.nvim
+gitui
+nu-ssh 
+gitui
+nv .ssh/config
+nv ~/.ssh/config
+nu-ssh 
+gitui
+rm ~/.ssh/config
+zj
+upd
+dotF diff
+dotf diff
+dotf diff .config/nvim/init.lua
+nvrc
+ps
+use ./themes/themes/alucard.nu
+cd .config/nushell/scripts/
+git clone git@github.com:nushell/nu_scripts.git
+ls
+cat .config/nushell/env.nu
+nv
+nv .viminfo
+nv
+nvrc
+nvrc
+nvrc
+nvrc
+nvrc
+nvrc
+nvrc
+nvrc
+nvrc
+nvrc
+nv
+nvrc
+nv
+nvrc
+zj
+nv
+nvrc
+config nu
+nv
+config nu
+config env
+nv haha.nu
+config env
+nv haha.nu
+config env
+nv haha.nu
+config nu
+nv haha.nu
+config nu
+nvrc
+nv
+hx
+nv
+nvrc
+nvrc
+nv
+nvrc
+nw
+nv
+nvrc
+nv projects/rust/book/minigrep/src/main.rs
+nv projects/rust/book/minigrep/src/main.rs 
+nvrc
+nv
+nv projects/rust/book/minigrep/src/main.rs 
+cd projects/rust/book/minigrep/
+git status
+touch haha
+rm haha
+zj
+cd debs/
+ls
+dpkg --help
+dpkg -i carapace-bin_0.23.0_linux_arm64.termux.deb
+which carapace
+config nu
+cd
+carapace
+cd .config/
+cd carapace/
+ls
+git status
+git
+git help
+cd .config/carapace/
+la
+cd specs/
+la
+..
+tree overlays/
+tree
+tr
+la overlays/
+bat schema.json 
+nv schema.json
+nv
+nv schema.json
+git diff
+cd projects/rust/book/minigrep/
+git status
+config nu
+cd .config/nushell/
+ls
+cd scripts/
+la
+cat test.nu
+rm test.nu
+..
+la
+rm envs.nu
+ls
+git states
+git status
+dotF starship.nu
+dotF status
+dotf status
+dotf status .
+dotf add .
+dotf status
+dotf restore --staged
+dotf restore --staged .
+cat env.nu
+cat config.nu
+bat config.nu
+dotF status .
+dotf status .
+dotf add
