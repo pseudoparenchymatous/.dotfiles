@@ -21,10 +21,10 @@ let carapace_completer = {|spans|
 let-env config = {
     show_banner: false
     cursor_shape: {
-        emacs: block,
+        emacs: block
     }
     table: {
-        mode: heavy,
+        mode: heavy
     }
     completions: {
         external: {
@@ -34,5 +34,4 @@ let-env config = {
     }
 }
 
-carapace _carapace
 source ~/.config/nushell/starship.nu
