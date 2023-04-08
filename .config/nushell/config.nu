@@ -32,6 +32,28 @@ let-env config = {
             completer: $carapace_completer
         }
     }
+    keybindings: [
+        {
+            name: complete_menu
+            modifier: None
+            keycode: Tab
+            mode: [emacs vi_insert]
+            event: {
+                until: [
+                    { send: HistoryHintWordComplete }
+                    { send: Menu name: completion_menu }
+                    { send: MenuNext }
+                ]
+            }
+        }
+        {
+            name: explicit_comp_menu
+            modifier: Control
+            keycode: Space
+            mode: [emacs vi_insert]
+            event: { send: Menu name: completion_menu }
+        }
+    ]
 }
 
 source ~/.config/nushell/starship.nu
