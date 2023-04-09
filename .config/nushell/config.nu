@@ -13,11 +13,11 @@ def-env nu-ssh [] {
     ssh-agent -c | lines | first 2 | parse "setenv {name} {value};" | transpose -i -r -d | load-env
 }
 
-
 let carapace_completer = {|spans|
     carapace $spans.0 nushell $spans | from json
 }
 
+use nu_scripts/themes/themes/gruvbox-mix-dark-hard.nu
 let-env config = {
     show_banner: false
     cursor_shape: {
@@ -54,6 +54,7 @@ let-env config = {
             event: { send: Menu name: completion_menu }
         }
     ]
+    color_config: (gruvbox-mix-dark-hard)
 }
 
 source ~/.config/nushell/starship.nu
