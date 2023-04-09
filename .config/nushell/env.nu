@@ -6,6 +6,7 @@ load-env {
     VISUAL               : nvim
     EDITOR               : nvim
     GOPATH               : ("~/.local/share/go" | path expand)
+    BAT_THEME            : gruvbox-dark
     CARGO_HOME           : ("~/.local/share/cargo" | path expand)
     NODE_REPL_HISTORY    : ("~/.local/share/node_repl_history" | path expand)
     NPM_CONFIG_USERCONFIG: ("~/.config/npm/npmrc" | path expand)
