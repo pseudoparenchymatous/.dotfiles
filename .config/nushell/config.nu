@@ -57,4 +57,5 @@ let-env config = {
     color_config: (gruvbox-mix-dark-hard)
 }
 
+use nu_scripts/custom-completions/git/git-completions.nu *
 source ~/.config/nushell/starship.nu
