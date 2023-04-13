@@ -1,3 +1,4 @@
+let-env PATH = ($env.PATH | split row (char esep) | prepend $"($env.HOME)/.local/share/cargo/bin")
 let-env NU_LIB_DIRS = [
     ($nu.config-path | path dirname | path join 'scripts')
 ]
