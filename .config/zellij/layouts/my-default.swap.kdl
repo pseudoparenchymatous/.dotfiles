@@ -1,0 +1,5 @@
+swap_floating_layout {
+    floating_panes max_panes=1 { 
+        pane height="80%" width="80%" x="10%" y="10%"
+    }
+}
