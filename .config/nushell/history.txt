@@ -420,3 +420,2349 @@ bat config.nu
 dotF status .
 dotf status .
 dotf add
+dotf switch main -f
+fish
+pkg search gradle
+pkg update
+dotf branch
+dotf switch main
+config nu
+j
+nvrc
+dotf status
+dotf status .
+dotf status . -u
+dotf status . 
+dotf log
+dotf log --oneline
+nv
+nvrc
+dotf status .
+cd .config/nvim/
+dotf status . -u
+dotf diff lua/geo/lazy.lua
+bat lua/geo/lazy.lua 
+nvrc
+dui
+nvrc
+dui
+nvrc
+nv
+nvrc
+nv
+nvrc
+nv
+nvz
+nv
+nvrc
+nv .viminfo .wget-hsts
+nv .ssh .config
+nvrc
+nv
+nv .wget-hsts
+nvrc
+nv .config/nushell/env.nu
+nv
+nvrc
+nv nv .viminfo .wget-hsts
+nv .ssh .config
+nv .wget-hsts .viminfo
+nv .ssh
+nv .ssh/config
+nv
+dui
+nv
+nvrc
+nv
+nv .ssh
+nv .wget-hsts
+nvrc
+nv
+nv .wget-hsts
+nv
+nvrc
+nv .ssh
+nv
+nv .ssh
+nv
+nv .ssh
+nv .wget-hsts
+nv
+nvrc
+nv .wget-hsts
+nv projects/rust/book/minigrep/src/main.rs
+nv projects/rust/book/minigrep/src/
+dui
+nv projects/rust/book/minigrep/src
+nv projects/rust/book/minigrep/src/lib.rs
+nv
+nv projects/rust/book/minigrep/src/lib.rs
+dui
+nv projects/rust/book/minigrep/src/
+nv
+nvrc
+nv
+nvrc
+nv
+nvrc
+dui
+nvrc
+config
+config n
+config nu
+nv
+config nu
+nv
+nvrc
+dui
+config nu
+nv
+config nu
+nv
+cd .local/share/nvim
+rm -r
+rm -r lazy/
+zj
+nv
+nvim --clean
+rm .local/share/nvim/lazy/ -r
+nv
+nw
+nv
+nvrc
+dui
+nvrc
+nv
+dui
+nv
+nvrc
+nv
+nvrc
+dui
+nv
+nvrc
+nv
+nv .ssh
+nv
+dui
+nv
+nv
+dui
+nvrc
+nv
+nvrc
+dui
+zj
+pkg update
+apt --list
+apt list --upgradable
+pwd
+^pwd
+which pwd
+pkg upgrade 
+nala update
+ls
+zj
+upd
+nala list --upgradable
+upg
+man zellij
+zelllij help
+zellij help
+nvrc
+nvim -
+nvim -h
+nvim tutor
+nvim --clean
+dui
+nvrc
+dotf commit --amend --no-edit
+nvrc
+dui
+nvrc
+nvrc
+nv
+nvrc
+nvrc
+nv
+nvrc
+nv
+nvrc
+nv
+nvrc
+dotf diff .config/nvim/lua/plugins/gitsigns.lua
+dotf status .config/nvim/lua/plugins/
+nvrc
+dui
+nv
+nvrc
+dui
+zj
+dui
+nvrc
+nvrc
+hnv
+nv
+nvrc
+nvlc
+nvrc
+nv
+dui
+nvrc
+nvrc
+nvrc
+nvlc
+nvrr
+nvrc
+nv
+nvrc
+cd .config/nvim/
+cd lua
+ls
+..
+ls
+la
+cd lua
+la
+cd ~/projects/rust/book/minigrep/
+clear
+cd scripts/
+cd src
+ls
+..
+la
+cd nushell/
+cd target
+ls
+cd debs/
+cd debug
+..
+lua
+nala install lea
+nala install lua
+nala install rust
+nvrrc
+nvrc
+upd
+zj
+upd
+nala search lua
+nv
+cd rustlings/
+clear
+nv 
+nv src
+nv exercises/intro/intro1.rs
+rustlings
+rustlings
+config env
+rustlings
+$env.PATH
+config env
+rustlings
+nv exercises/intro/intro1.r
+nv exercises/intro/intro1.rs
+zj
+config nu
+config
+config n
+config nu
+config env
+dui
+man xargs
+nv projects/rust/book/minigrep/src/lib.rs
+cd projects/rust/book/minigrep/
+git status
+git diff
+ls
+nv poem.tx
+nv poem.txt
+nv .
+git branch
+git diff
+git checkout main
+git diff
+gitui
+dotf status
+git status
+rustc -v
+rustc -V
+touch me
+ls
+rm me
+cd projects/rust/book/minigrep
+ls
+la
+nv .gitignore
+nv .
+nv .gitignore
+nv .
+ls
+git diff
+nvrc
+zj
+cd .config/nvim/lua/plugins/
+hx cmp.lua 
+nv
+zj
+upd
+nala list --upgradable
+upg
+zj
+zellij --help
+.config/zellij/
+la
+cd layouts
+ls
+..
+cd themes/
+ls
+bat gruvbox.kdl 
+..
+ls
+zj help
+zellij setup help
+zellij setup --dump-config
+zellij setup --dump-config > haha.txt
+zellij setup --dump-config >> haha.txt
+help save
+zellij setup --dump-config | save new-config.kdl
+nv new-config.kd
+nv new-config.kdl
+ls
+nvim -h
+nv -h config.kdl new-config.kdl
+nv -d config.kdl new-config.kdl
+vimdiff config.kdl new-config.kdl
+ls
+dotf diff config.kdl
+dotf add config.kdl
+dotf commit -m 'Zellij: Update config based on new version defaults'
+vim
+zj
+nv config.kdl
+vim
+nvrc
+zj
+vim
+nvrc
+vim
+nv .config/zellij/config.kdl
+zj
+vim
+duu
+dui
+nv
+nvrc
+config env
+nvrc
+config env
+dui
+ls
+clear
+zj
+nv
+nvrc
+nv
+ls
+clear
+nvrc
+ls
+gitui
+dui
+zj
+nv --clean
+nvrc
+nvrc
+zq
+nvrc
+ls
+dui
+ls
+dui
+ls
+nvrc
+zj
+nv
+ls
+neofetch 
+neofetch
+ls
+nvrc
+nvrr
+nvrc
+nvrr
+nvrc
+nv .config/nvim/lua/geo/keymaps/init.lua
+nvrc
+nv .config/nvim/lua/geo/keymaps/init.lu
+nv .config/nvim/lua/geo/keymaps/init.lua
+nv .config/nvim/lua/geo/autocommands/init.lua
+nvrc
+nv .config/nvim/lua/geo/autocommands/init.lua
+dui
+nvrc
+nv
+ls
+nu dui
+nu -h
+nu -i
+nu -c
+nu help
+help nu
+nu --help
+nu -e ls
+nu -c ls
+nu -c la
+nu -e la
+nu -e dui
+nu -e exec dui
+which dui
+type dui
+describe dui
+help describe
+dui | describe 
+'dui' | describe 
+ls | describe 
+which dui | describe 
+nu -e "exec dui"
+nu -e "exec dui"
+exec dui
+fish
+gitui
+lazygit
+ls
+la
+cd projects/rust/book/minigrep
+gitui
+lazygit
+exec gituu
+exoc $(dui)
+exoc $"(dui)"
+exoc $"dui"
+exec $"dui"
+exec $"(dui)"
+alias v = vim
+exec v
+ls #lmao
+alias v = vim
+exec v
+fish
+type dui
+which v
+alias v = vim
+which v
+which -h
+type ls
+which rm
+which -h
+help aliases
+help aliases.name
+help aliases | table
+help aliases | table.name
+$nu.scope.aliases
+$nu.scope.aliases.name
+$nu.scope.aliases 
+$nu.scope.aliases | which name == v
+$nu.scope.aliases | which name == dotf
+$nu.scope.aliases | select expansion
+$nu.scope.aliases | get name
+$nu.scope.aliases | select name
+$nu.scope.aliases | select name expansion
+$nu.scope.aliases | select name expansion | where name == dui
+$nu.scope.aliases | select expansion | where name == dui
+$nu
+$nu.scope
+$nu.scope.aliases 
+$nu.scope.aliases.0
+$nu.scope.aliases.name
+$nu.scope.aliases | where name == v
+$nu.scope.aliases | where name == v | select expansion
+$nu.scope.aliases | where name == v | select expansion.%
+$nu.scope.aliases | where name == v | select expansion.0
+$nu.scope.aliases | where name == v | select expansion
+$nu.scope.aliases | where name == v | select expansion | get 
+$nu.scope.aliases | where name == v | select expansion | get 0
+$nu.scope.aliases | where name == v | select expansion | get expansion
+$nu.scope.aliases | where name == v | get expansion
+$nu.scope.aliases | where name == v | get expansion.0
+$nu.scope.aliases | where name == v | get expansion.0 | exec
+exec ($nu.scope.aliases | where name == v | get expansion.0)
+alias v = vim
+nvrc
+nvrc
+zj
+help aliases
+help aliases | get expansion
+help aliases | where name == la
+help aliases | where name == la | get expansion
+help aliases | where name == la | get expansion.0
+oxec (help aliases | where name == dui | get expansion.0)
+exec (help aliases | where name == dui | get expansion.0)
+help aliases | where name == la | get expansion.0
+help aliases | where name == dui | get expansion.0
+exec (help aliases | where name == dui | get expansion.0)
+alias v = vim
+help aliases
+exec "gitui --git-dir ~/.dotbare --work-dir ~"
+gitui
+gitui help
+gitui --help
+gitui -d '~/.dotbare' -w '~'
+gitui --directory '~/.dotbare' --workdir '~'
+gitui --directory '~/.dotbare' --workdir '~' .
+gitui --directory '~/.dotbare' --workdir '~' -- .
+gitui --directory '~/.dotbare' --workdir '~'
+gitui
+gitui --directory ~/.dotbare --workdir ~
+gitui --directory "~/.dotbare" --workdir "~"
+gitui --directory "~/.dotbare" --workdir="~"
+gitui --help
+echo (help aliases | where name == dui | get expansion)
+echo (help aliases | where name == dui | get expansion.0)
+vim -h
+vim -E
+vim --clean
+alias v = vim --clean
+exec (help aliases | where name == v | get expansion.0)
+help aliases | where name == v | get expansion
+help aliases | where name == v | select expansion
+help aliases | where name == v | select expansion.0
+help aliases | where name == v | select expansion.#
+help aliases | where name == v | select expansion.0
+help aliases | where name == v | select expansion | select 
+help aliases | where name == v | select expansion | get 
+help aliases | where name == v | select expansion | get %
+help aliases | where name == v | select expansion | get 0
+help aliases | where name == v | select expansion 
+help aliases | where name == v 
+help aliases | where name == v | get 
+help aliases | where name == v | get %
+help aliases | where name == v | get 0
+help aliases | where name == v | get 0.name
+help aliases | where name == v | get 0.expansion
+help aliases | where name == v | get expansion.0
+alias v = vim
+alias v = vim --cleav
+alias v = vim --clean
+v
+exec (help aliases | where name == v | get expansion.0)
+alias v = "vim --clean"
+exec (help aliases | where name == v | get expansion.0)
+alias v = "vim"
+zj
+nu -h
+nu -n
+exec 'nu -n'
+help exec
+ps aex
+ps aux
+ps
+'nu' | exec
+nu | exec
+exec -h
+which exec
+which ^exec
+^exec
+ls
+bash
+bast
+bash
+bast
+bash
+ls
+^ls
+bash
+ls
+^ls
+clear
+ls
+^ls
+ls
+nu -n
+ls
+clean
+clean
+ls
+ls
+clean
+clean
+clear
+clear
+ls
+ls
+clear
+clear
+ls
+ls
+bash
+nv .config/zellij/config.kdl
+cd .local/state/nvim/lazy/readme/doc/
+ls
+..
+ls
+..
+ls
+nv
+..
+ll
+..
+.
+..
+cd share/nvim/
+ls
+cd tree-sitter-typescript/
+ls
+..
+nv
+ls
+rm tree*
+rm tree* -r
+ls
+cd mason/
+ls
+..
+cd lazy/
+ls
+nv
+zj
+nv
+nv .config/git/config
+upd
+bast
+bash
+exoc vim --cleav
+exoc vim --clean
+exoc 'vim --clean'
+exec 'vim --clean'
+help exec
+echo hello
+echo (hello)
+^'vim'
+exec ^'vim --clean'
+exec ^"vim --clean"
+help run
+help run-external
+exec (run-external "vim")
+help run-external
+run-external 'vim' '--clean'
+run-external 'vim' '--clean' | exec
+'vim' | exec
+exec < 'vim'
+exec run-external 'vim'
+run-external vim
+exec ^'ls'
+exec ^ls
+help aliases | where name == v | get expansion.0
+help aliases | where name == dui | get expansion.0
+help aliases | where name == dui | get expansion.0 | str substring 'd'
+help aliases | where name == dui | get expansion.0 | str substring '6,'
+help aliases | where name == dui | get expansion.0 | str substring '6'
+help aliases | where name == dui | get expansion.0 | str substring '6, 8'
+help aliases | where name == dui | get expansion.0 | str substring '6,8'
+help aliases | where name == dui | get expansion.0 
+help aliases | where name == dui | get expansion.0 | str
+help aliases | where name == dui | get expansion.0 | str substring
+help aliases | where name == dui | get expansion.0 | str substring 
+help aliases | where name == dui | get expansion.0 | str substring 6
+help substring
+help str substring
+help aliases | where name == dui | get expansion.0 | str substring 6..8
+help aliases | where name == dui | get expansion.0 | str substring 6..
+cd projects/rust/book/minigrep
+gitui
+gituu
+gitui
+exoc gitui
+nu
+exoc gitui '-d ~/.dotbare -w ~'
+nu
+exoc gitui '-d ~/.dotbare -w ~'
+gitui -d ~/.dotbare -w 
+gitui -d ~/.dotbare -w ~
+nu
+exec ^'vim'
+exec ^"vim"
+exec ^'ls'
+exec $"^'ls'"
+^'ls'
+'ls'
+exoc
+exec
+help exec
+exec help
+exoc save
+exec save
+nu
+ls
+rm aha/
+ne
+exoc nu -n
+nu
+'nu -n' | exec
+ls out> aha.txt
+^ls out> aha.txt
+bat aha.txt 
+rm aha/
+rm aha
+rm aha.tx
+rm aha.txt
+ls
+ls test
+ls <in 'test'
+help redirect
+help redirection
+help redirect
+help save
+clear
+help save
+help >
+help > 
+help io
+run-external -h
+exec -h
+exec 'vdm'
+exec 'nu -n'
+exec [nu]
+exec [[nu]]
+help parse
+clear
+help parse
+ls | save scr
+'ls' | save scr
+ls
+bat scr
+'ls' | save scr -f
+bat scr
+nu -c scr
+nu -h
+nu --stdin scr 
+nu --stdin scr
+'la' | save scr -f
+nu --stdin scr 
+nu
+exec 'nu -n'
+exoc 'nu' -n
+exoc 'nu' '-n'
+nu
+gitui -n
+gitui -h
+gitui -hV
+gitui -V
+gitui -Vh
+gitui -V --help
+nu
+exec "'gitui' '-d' '~/.dotbare' '-w' '~'"
+ls
+'hoho\nhaha' | save scr
+'hoho\nhaha' | save scr -f
+nvim < scr 
+banh
+bash
+ls
+rm 
+rm ~
+rm '~'
+ls ./~
+rm ./~
+ls
+nv
+ls
+la
+clear
+bat scr
+rm scr
+ls
+nv scr.txt
+bash
+nv `cat scr.txt`
+cat scr.txt 
+bash
+nvim `cat scr.txt`
+cat scr.txt
+nvim `cat scr.txt`
+zj
+cat scr.txt | nv
+cat scr.txt
+cat scr.txt | nvim
+open scr.txt
+open --raw scr.txt
+nv (cat scr.txt)
+ls
+cat scr.txt
+nv (cat scr.txt)
+stat
+stat (which git)
+stat (which git).path
+which git
+which git.path
+(which git)
+(which git).path
+help aliases | where name == dui | get expansion
+exec (help aliases | where name == dui | get expansion)
+exec (help aliases | where name == dui | get expansion.0)
+bash
+ls
+bat scr
+bat scr.txt 
+[a b c d e]
+['haha' 'lol']
+nv ['haha' 'lol']
+open scr.txt
+open scr.txt | parse
+help parse
+open scr.txt | table
+^ls | table
+help table
+^ls | table --flatten
+nv (open scr.txt | lines)
+open scr.tx
+open scr.txt
+open scr.txt | lines
+nvim (open scr.txt)
+help aliases | where name == dui | get expansion.0
+help aliases | where name == dui | get expansion.0 | str substring 6..
+help split
+help aliases | where name == dui | get expansion.0 | str substring 6.. | split words
+help aliases | where name == dui | get expansion.0 | str substring 6.. 
+help aliases | where name == dui | get expansion.0 | str substring 6.. | split row ' '
+gitui (help aliases | where name == dui | get expansion.0 | str substring 6.. | split row ' ')
+gitui (help aliases | where name == dui | get expansion.0 | str substring 6.. | split row ' ' | lines)
+help aliases | where name == dui | get expansion.0 | str substring 6.. | split row ' '
+help aliases | where name == dui | get expansion.0 | str substring 6.. | split row ' ' | lines
+help aliases | where name == dui | get expansion.0 | str substring 6.. | split list
+help aliases | where name == dui | get expansion.0 | str substring 6.. | split list ' '
+help aliases | where name == dui | get expansion.0 | str substring 6.. | split list ' '.0
+help aliases | where name == dui | get expansion.0 | str substring 6.. | split column ' '
+help aliases | where name == dui | get expansion.0 | str substring 6.. | split column ' ' 
+help aliases | where name == dui | get expansion.0 | str substring 6.. | split column ' ' | lines
+help aliases | where name == dui | get expansion.0 | str substring 6.. | split column ' ' | rows
+help aliases | where name == dui | get expansion.0 | str substring 6.. | split column ' ' | columns
+help aliases | where name == dui | get expansion.0 | str substring 6.. | split column ' ' | rows
+[1 2 3] | split list
+[1 2 3] | split list ' '
+help aliases | where name == dui | get expansion.0 | str substring 6.. | split row ' ' 
+nu
+nu
+exoc 'gitui' '-d' '~/.dotbare' '-w' '~'
+help aliases | where name == dui | get expansion.0
+help aliases | where name == dui | get expansion.0 | split ' '
+help aliases | where name == dui | get expansion.0 | split char
+help aliases | where name == dui | get expansion.0 | split words
+help aliases | where name == dui | get expansion.0 | split row ' '
+open scr.txt
+open scr.txt | lines
+nv args.txt
+nv (open args.txt | lines)
+help aliases | where name == dui | get expansion.0 | split row ' '
+exec (help aliases | where name == dui | get expansion.0 | split row ' ')
+nv args.txt
+nv args.tx
+nv args.txn
+nv args.txt
+open args.txt
+open args.txt | lines
+help aliases | where name == dui | get expansion.0 | split row ' '
+exec (open args.txt | lines)
+nu
+ls
+bat args.txt 
+bat scr.txt
+nv
+run-external (^cat runv)
+run-external (open args.txt | lines)
+run-external (open args.txt)
+run-external (open runv)
+run-external (open runv | lines)
+run-external (open runv | lines).0
+run-external -h
+run-external (open runv)
+run-external (open runv|lines)
+run-external (open runv|lines).0
+nv runv
+run-external (open runv|lines).0
+run-external (open runv | lines)
+run-external (open runv | lines).0
+nv runv
+run-external (open runv | lines).0
+help run-external
+vim 
+vim | run-external 
+run-external vim --clean
+run-external vim -- --cleav
+run-external vim -- --clean
+run-external vim .. --cleat
+run-external vim .. --clean
+run-external vim ..--clean
+run-external vim ..aha
+help run-external
+run-external vim ...--clean
+run-external vim ... --clean
+nv runv
+nv (open runv | lines)
+nv -h
+nv -V --clean
+nv -Vń
+nv -V0
+nv -
+nv -V
+nv -m --clean runv
+nv runv
+nv -M --clean runv
+nv runv
+nv (open runv | lines)
+nv runv
+nv (open runv | lines)
+nv -M --clean
+nv runv
+nv (open runv | lines)
+nv runv
+nv (open runv | lines)
+nv -h
+nv runv
+gitui (open runv | lines)
+nv runv
+gitui (open runv | lines)
+nv runv
+git (open runv | lines)
+nv runv
+git (open runv | lines)
+git (open runv | lines) status
+git --git-dir $env.HOME/.dotbare --work-tree $env.HOME
+git --git-dir $"($env.HOME)/.dotbare" --work-tree $env.HOME
+git --git-dir $"($env.HOME)/.dotbare" --work-tree $env.HOME status
+nv gitui.txt
+gitui (open runv | lines)
+gitui (open gitui.txt | lines)
+gitui -d $"($env.HOME)/.dotbare" -w $env.HOME
+nv gitui.txt
+gitui (open gitui.txt | lines)
+gitui (open gitui.txt | lines) .
+open gitui.txt 
+open gitui.txt | lines
+exec $"'nu' '-n'"
+man exec
+bast
+help exec
+exoc nu
+nu
+ls
+nvrc
+dui
+zj
+upd
+nv
+nvrc
+ls
+rm runv scr.txt ń
+ls
+rm args.txt gitui.txt 1.txt 2.txt
+rm args.txt gitui.txt 
+ls
+rm 1.txt
+rm '1.txt'
+ls
+rm '2.txt'
+ls
+cd projects/
+ls
+mkdir lua
+rd lua/
+..
+cd projects/
+mv lua/ lua
+cd lazy/
+cd lua
+ls
+mkdir zellij
+cd zellij/
+nv init.lua
+ls
+..
+la
+cd zellij/
+la
+..
+mv zellij/ zellij_nvim
+cd zellij/
+cd zellij_nvim
+ls
+nvrc
+nv
+..
+mv zellij_nvim/ zellij-nvim
+cd zellij-nvim
+nv init.lua
+ls
+nv init.lua
+nvrc
+nv init.lua
+mv -h
+mv init.lua lua/init.lua
+mkdir lua
+mkdir lua/zellij-nvim
+mv init.lua
+mv init.lua lua/zellij-nvim
+nv
+cd ~/.config/nvim/
+tree
+ls
+nv .
+zj --help
+zq ac
+zj ac
+zj ac new-pane; zj ac toggle-pane-embed-or-floating;
+zj ac new-pane; zj ac toggle-pane-embed-or-floating; dui
+zj ac new-pane; zj ac toggle-pane-embed-or-floating; zj ac write-chars dui
+zj ac new-pane; zj ac toggle-pane-embed-or-floating; zj ac write-chars dui\n
+zj ac new-pane; zj ac toggle-pane-embed-or-floating; zj ac write-bytes dui
+zj ac new-pane; zj ac toggle-pane-embed-or-floating; zj ac write dui
+zj ac new-pane; zj ac toggle-pane-embed-or-floating; zj ac write-chars "dui\n"
+zj ac new-pane; zj ac toggle-pane-embed-or-floating; zj ac write-chars "dui\r"
+zrf dui
+zr
+zj run -f -- dui
+zj run -f -- gitui
+zj ac new-pane -f -- gitui
+zj ac new-pane -f -- dui
+zj ac new-pane -f 
+zellij run -f -n "gitui"
+zellij run -f -n gitui
+zellij run -f -n gitui --
+zellij run -f -n gitui -- dui
+zj ac query-tab-names
+cd ~/projects/rust/book/minigrep/
+nv init.lua
+nv lua/zellij-nvim
+nv lua/zellij-nvim/init.lu
+nv lua/zellij-nvim/init.lua
+nv lua/zellij-nvim/init.lu
+nv lua/zellij-nvim/init.lua
+nv .
+nv ~/.config/zellij/config.kdl
+zellij run -f -n gitui -- dui
+zellij run -f -n gitui -- dui; zellij action resize +
+zellij run -f -n gitui -- dui
+zellij run -f -n gitui -- dui; zellij action resize +; zellij action resize +
+zellij run -f -n gitui -- dui; zellij action resize +; zellij action resize +; zj ac resize +
+ls
+dui
+nvrc
+zj
+cd .config/zellij
+s
+ls
+cd layouts
+ls
+bat rust-by-example.kdl
+zj setup --dump-swap-layout default
+ls
+nv floating_gitui.kdl
+ls
+mv floating_gitui.kdl float-gitui.swap.kdl
+nv float-gitui.swap.kd
+zj setup --check
+cd ~/.local/share/zellij/
+ls
+bat VERSION 
+cd plugins/
+ls
+nv compact-bar.was
+nv compact-bar.wasm
+nv float-gitui.swap.kdl
+mv
+mv float-gitui.swap.kdl gitui.kdl
+zj ac new-tab -l ~/.config/zellij/layouts/gitui.kdl
+zj -h
+zj convert-layout
+zj convert-layout .config/zellij/layouts/rust-by-example.kdl
+zj ac new-pane -f
+nv .config/zellij/config.kdl
+zj
+nv ~/.config/zellij/config.kdl
+nv ~/.config/zellij/layouts/my-default.kdl
+zj
+nv ~/.config/zellij/layouts/my-default.kdl
+zj
+nv ~/.config/zellij/layouts/my-default.kdl
+zj
+nv ~/.config/zellij/layouts
+zj
+nv ~/.config/zellij/config.kdl 
+nv ~/.config/zellij/layouts/my-default.kdl 
+zj
+nv ~/.config/zellij/layouts/my-default.swap.kdl
+nv ~/.config/zellij/layouts/my-default.swap.kdl 
+zj
+nv ~/.config/zellij/layouts/my-default.swap.kdl  
+zj
+nv ~/.config/zellij/layouts/my-default.swap.kdl
+dui
+nv projects/lua/zellij-nvim/lua/zellij-nvim/init.lua
+zj
+dui
+lazygit -h
+lazygit -g .dotbare/ -w 
+lazygit -g .dotbare/ -w .
+lazygit -g .dotbare/ -w . 
+duu
+lazygit -g .dotbare/ -w .
+dui
+nv
+nvrc
+dui
+duii
+dui
+qjq
+duu
+dui
+nvrc
+zj
+cd .config/zellij
+ls
+diff
+diff config.kdl new-config.kdl 
+upd
+zj
+ch
+cd
+upg
+nv .config/zellij/config.kdl
+zj
+nv .config/zellij/config.kdl
+zj
+gituu -d ~/.dotbare -w ~
+gitui -d ~/.dotbare -w ~
+nv
+nv .config/zellij/config.kd
+nv .config/zellij/config.kdl
+zj
+cd projects/rust/book/minigrep
+nv
+nv -v
+nv
+nala search teal
+nv projects/lua/zellij-nvim/lua/zellij-nvim/init.lua
+nv projects/lua/zellij-nvim/lua/zellij-nvim/init.lua 
+nv .config/nvim/init.lua 
+nvrc
+nv .local/share/nvim/lazy/
+cd .local/state/nvim/lazy/
+ls
+cd ~/.local/share/nvim/lazy/
+ls
+cd
+nv projects/lua/zellij-nvim/lua/zellij-nvim/init.lua
+nvrc
+nvrc
+dui
+nvrc
+ nv
+zj
+nv
+upd
+nala list --upgradabl
+nala list --upgradable
+nala update help
+upg
+nala update -h
+nala help
+zzz
+nv .config/zellij/config.kdl
+zj
+nv .config/zellij/config.kdl
+dotf ls-filos
+dotf ls-files
+cd .config/nvim
+dotf ls-files .
+cd .local/share/nvim/lazy/nvim-tree/
+dui
+help aliases
+git -h
+man git
+git --git-dir=~/.dotbare --work-tree=~
+git --git-dir=~/.dotbare --work-tree=~ status
+git --git-dir ~/.dotbare --work-tree ~ status
+git --git-dir='~/.dotbare' --work-tree='~' status
+nvrc
+nv ~/projects/rust/book/minigrep/Cargo.lock
+dotf --no-optional-locks status --porcelain=v1
+dotf --no-optional-locks status
+dotf --no-optional-locks status --porcelain=v1
+GIT_DIR=~/.dotbare ls
+GIT_DIR=~/.dotbare GIT_WORK_TREE=~ git status
+GIT_DIR=$env.HOME/.dotbare GIT_WORK_TREE=$env.HOME git status
+GIT_DIR=$"(env.HOME)/.dotbare" GIT_WORK_TREE=($env.HOME) git status
+GIT_DIR=$"($env.HOME)/.dotbare" GIT_WORK_TREE=($env.HOME) git status
+GIT_DIR=$"($env.HOME)/.dotbare" GIT_WORK_TREE=$"(env.HOME)" git status
+GIT_DIR=$"($env.HOME)/.dotbare" GIT_WORK_TREE=$"($env.HOME)" git status
+man git
+nv ~/projects/rust/book/minigrep/Cargo.lock
+nvrc
+echo $HAHA
+HAHA=lol
+let HAHA=lol
+let-env HAHA = lol
+echo $HAHA
+echo $env.HAHA
+ls -a
+nv
+nvrc
+nv .
+nv .editorconfig
+nvrc
+nv .editorconfig
+nvrc
+nvrr
+nvrc
+nv .editorconfig
+nv .
+nvrc
+zj
+mkdir original_dir
+ln -h
+which ln
+lh --help
+ln --help
+man ln
+which many
+which man
+nala install most
+PAGER=most man ln
+man most
+PAGER=most man most
+PAGER=nvim man ln
+nv
+nv -h
+nv --Man ln
+nv --cmd Man ln
+nv -c Man ln
+nv -c 'Man ln'
+MANPAGER="nvim +Man!" man ln
+nala
+nala remove most
+nala purge most
+nala search slanc
+nala search slang
+ls
+ln -s original_dir/ link_dir
+cd original_dir/
+nv file.txt
+cd link_dir
+ls
+nv file.txt
+ls
+..
+ls
+rm original_dir/
+rm original_dir/ -r
+ls
+cd link_dir
+rm link_dir
+ls
+ln -s .dotbare/ .git
+git states
+git status
+ls
+nvrc
+git status
+git -C . statun
+git -C . status
+ls
+la
+cd .git/
+ls
+..
+gituu
+gitui
+gitui -w ~
+git --work-tree ~ status
+MANPAGER="nvim +Man!" man git
+ls
+nv packs.txt
+GIT_WORK_TREE=~ nv packs.txt
+MANPAGER="nvim +Man!" man git
+nvrc
+rm .git/
+nvrc
+nvrc
+zj
+nv
+j
+fzf
+zellij ls
+zellij ls | fzf
+zellij help
+zellij ls | fzf | zj a
+zellij ls | fzf | zj a 
+zellij help
+clear
+zellij help
+zj
+zj help
+zj ac new-session
+zj ac --help
+zj 
+zq ls
+zj ls
+zj ls | ls
+zj ls | fzfz
+zj ls | fzf
+zj ac (zj ls | fzf)
+zellij attach (zellij list-sessions | fzf)
+zjls
+zj ls
+zj
+zj a (zj ls | fzf)
+zj a
+zj a -h
+zj ac -h
+ls
+nv
+ls
+duu
+dui
+nvrc
+zj
+fd .
+fd -h
+cd .dotbare/
+lla
+la
+bat config
+nv (fd -H . | fzf)
+nvrc
+nvrc
+upd
+nala list --upgradable
+upg
+ls
+cd .dotbare/
+ls
+..
+cd example
+mkdir examplo
+mkdir example
+rm examplo
+cd example
+mkdir git_repo
+git init --bare .diff-git
+ls
+la
+cd .dotbare/
+cd .diff-git
+ls
+nv HEAD
+..
+ls
+la
+git --git-dir .diff-git/ --work-tree git_repo/
+git --git-dir .diff-git/ --work-tree git_repo/ status
+cd git_repo/
+touch file.txt
+ls
+git states
+git status
+git -C . status
+git --git-dir ../.diff-git/ --work-tree . status
+git --git-dir ../.diff-git/ --work-tree . add file.txt
+git --git-dir ../.diff-git/ --work-tree . commit -m 'Add file'
+git --git-dir ../.diff-git/ --work-tree . log
+touch file.2txt
+rm file.2txt
+touch file2.txt
+nv .
+..
+rm
+rm .diff-git
+rm .diff-git git_repo/ -r
+git init --bare .bare-repo
+mkdir nested/dir/
+cd nested/dir/
+mkdir actual_repository
+cd actual_repository/
+..
+mkdir traditional_repository
+cd traditional_repository/
+git init .
+touch file.txt
+nv
+..
+cd actual_repository/
+touch file.txt
+nv
+nv .
+zj
+cd example/nested/
+ls
+cd dir/
+ls
+git init another_git
+cd another_git/
+touch file.txt
+..
+.
+..
+nv .
+cd example/nested/dir/actual_repository/
+git --git-dir ../../.bare_repo --work-tree . status
+ls
+git --git-dir ../../../.bare-repo/ --work-tree . status
+cd ../traditional_repository/ 
+git status
+git --git-dir .git/ --work-tree . status
+git --git-dir example/.bare-repo/ --work-tree . status
+git --git-dir example/.bare-repo/ --work-tree example/nested/ status
+git --git-dir example/.bare-repo/ --work-tree example/nested/dir
+git --git-dir example/.bare-repo/ --work-tree example/nested/dir/actual_repository/ status
+man git
+nala search maven
+nala search gradle
+upd
+nv --clean
+nv
+nvrc
+nv
+nvrc
+nv
+cd projects/rust/book/minigrep
+nv
+nvrc
+nv projects/rust/book/minigrep/src
+dui
+zj
+upd
+cd .local/share/nvim/lazy/gruvbox-material/after/
+ls
+cd
+nv .local/share/nvim/lazy/gruvbox-material/after/
+nv .local/share/nvim/lazy/gruvbox-material/after/syntax/
+nvrc
+dui
+nvrc
+zj
+upd
+nala list --upgradable 
+upg
+nvrc
+fish
+..
+ls
+cd usr/
+ls
+cd share/nvim/
+ls
+cd runtime/
+ls
+cd ftplugin/
+ls
+^ls
+ls .*lua
+..
+ls
+cd syntax/
+ls
+ls *.lua
+..
+ls
+nv .
+nv --clean
+nv
+nv projects/rust/book/minigrep/src/main.rs
+zj
+nv
+upd
+nv
+cd .local/share/nvim/lazy/nvim-tree/lua/nvim-tree/git/
+nvrc
+nv ~/projects/rust/book/minigrep/Cargo.lock
+cd
+nv ~/projects/rust/book/minigrep/Cargo.lock
+nvrc
+nv example/nested/dir/traditional_repository/
+nv
+nv example/nested/dir
+nv example/nested/dir/actual_repository/file.txt
+nv .config/nvim/init.lua
+nv ~/projects/rust/book/minigrep/Cargo.lock
+nv .config/nvim/init.lua
+nvrc
+nv .config/nvim/init.lua
+nv projects/rust/book/minigrep/src/main.rs
+nv .config/nvim/init.lua
+nv projects/rust/book/minigrep/src/main.rs
+nvrc
+nv projects/rust/book/minigrep/src/main.rs
+nv .config/nvim/init.lua
+nv projects/rust/book/minigrep/src/main.rs
+nv .config/nvim/init.lua
+nv projects/rust/book/minigrep/src/main.rs
+nv .config/nvim/init.lua
+nv projects/rust/book/workspace_add/
+nv projects/rust/book/workspace_add/add_one/src/lib.rs
+nv projects/rust/book/workspace_add
+nv projects/rust/book/workspace_add/target/debug/build/libc-0b3789759159fa34/build-script-build
+nv projects/rust/book/workspace_add
+nv projects/rust/book/workspace_add/adder/Cargo.toml
+nv projects/rust/book/minigrep/
+nv projects/rust/book/minigrep/src/nested/dir/ecto/ries/file.txt
+nv .config/nvim/init.lua
+nv .config/nvim
+a
+nv .config/nvim/lua/geo/
+nvrc
+mas git
+man git
+man git-revparse
+man git
+man git-rev-parse
+nv .config/nvim/lua/plugins/lsp/servers/init.lua
+man git
+git --git-dir ~/.dotbare --work-tree .config/nvim/ status
+git --git-dir ~/.dotbare -C . status
+man git
+git --git-dir ~/.dotbare --work-tree ~ -C .config/nvim/ status
+git --git-dir ~/.dotbare --work-tree ~ -C .config/nvim/lua/plugins/lsp/servers status
+git --git-dir ~/.dotbare --work-tree ~ -C .config/nvim/lua/plugins/lsp/ status
+git --git-dir ~/.dotbare --work-tree ~ -C .config/nvim/ status
+nv .config/nvim/lua/plugins/lsp/servers/init.lua
+nv projects/rust/book/minigrep/src/nested/dir/ecto/ries/file.txt
+nv projects/rust/book/minigrep/src/main.rs
+nv .config/nvim/lua/plugins/lsp/servers/init.lua
+nv .config/nvim/lua/plugins/lsp/servers/
+nv .config/nvim/lua/plugins/lsp/servers
+nv .config/nvim/lua/plugins/lsp/servers/init.lua
+nv projects/rust/book/minigrep/src/main.rs
+nv example/nested/dir/actual_repository/file.txt
+nv .config/nvim/lua/plugins/lsp/servers/init.lua
+nv .config/nvim/lua/plugins/lsp/servers
+cd .config/nvim/lua/plugins/lsp/servers/
+ls
+dotf status
+dotf status .
+nv .config/nvim/lua/plugins/lsp/servers/init.lua
+nv
+nv projects/rust/book/minigrep/src/main.rs
+nv \
+nv projects/rust/book/minigrep/src/main.rs
+nv
+nv .config/nvim/lua/plugins/lsp/servers/init.lua
+nv projects/rust/book/minigrep/src/main.rs
+nv example/nested/dir/actual_repository/file.txt
+gh repo fork
+ls
+cd repos/
+ls
+gh repo fork nvim-tree/nvim-tree.lua
+ls
+cd lualine.nvim/
+nv .
+..
+cd nvim-tree.lua/
+nv .
+nvrc
+nv .
+cd ~/example/
+mkdir 2142
+..
+mkdir '2142'
+cd `2142/`
+ls
+mkdir master
+cd master
+git init
+bash
+ls
+git add bar baz
+git commit -a -m 'add two files'
+git worktree add ../one -b one
+git worktree add ../two -b two
+cd ..
+nv
+..
+rm 2142
+rm '2142'
+rm '2142' -r
+ls
+rm example/ -r
+sh
+dash
+man dash
+which dash
+which sh
+cd ../usr/bin/
+ls
+ls | where name = dash
+ls | where name == dash
+ls | where name == bash
+ls | where name == sh
+la | where name == sh
+ls -l | where name == sh
+zj
+sh
+nv example
+nv example/nested/dir/ect/ory/wor
+cd example
+cd
+cd example/nested/dir/ect/ory/work
+nv
+bash
+cd ~/repos/nvim-tree.lua/
+git status
+gitui
+git push
+nv ~/projects/rust/book/minigrep/Cargo.lock 
+nv ~/example/nested/dir/ect/ory/work/bar
+nv ~/.local/share/nvim/lazy/nvim-tree/lua/nvim-tree/git/
+nv ~/projects/rust/book/minigrep/Cargo.lock  
+ls
+cd nested/
+ls
+tree .
+fd .
+cd dir/ect/ory
+ls
+cd -
+rm dir
+rm -h
+which rm
+rm -rv dir
+..
+rm nested
+ll
+clear
+la
+la | where name == test
+la | get name
+la | select name
+la | select name.0
+la | select #
+la | select #.0
+la | select 0
+la | select 18
+dotf log --oneline
+dotf log --oneline -h5
+dotf log --oneline -
+dotf log --oneline -5
+dotf log --oneline -2
+dotf log --oneline -20
+dotf log -h
+man git-loc
+man git-log
+dotf log 
+dotf log | less
+dotf log 
+date
+date now
+date humanize
+date now | date humanizo
+date now | date humanize
+date now | humanizo
+date now | humanize
+date list-timezone 
+date -h
+date now | date to-timezone Asia/Manila
+date to-timezone Asia/Manila
+date now | date to-timezone local
+date now | date to-timezone +0800
+date now | date to-timezone '+0800'
+date now | date to-timezone Asia/Manila
+ls
+nu -n
+ls
+upd
+nala install stow
+stow -h
+stow -V
+mkdir .dotfiles
+cd .dotfiles/
+ls
+mkdir .config/geo/rey/init.lua
+cd .config/geo/rey/
+nv init.lua
+.
+ls
+rm init.lua/
+nv init.lua
+..
+stow .
+..
+cd .config/
+ls
+cd geo
+ls
+..
+stow -D .
+cd ~/.config
+ls
+stow -h
+ls
+..
+cd .dotfiles/
+dui
+nvrc
+nv
+nvrc
+zqj
+nv
+dui
+nv
+dui
+zj
+dotf clone .dotfiles
+git clone projects/rust/book/minigrep minigrep
+ls
+cd minigrep/
+git log
+cd ~/projects/rust/book/minigrep/
+git status
+ls
+cd sr
+cd src
+ls
+rm nested -r
+..
+git status
+nv .
+ln
+cd .dotfiles/
+ls
+mkdir .config/geo/rey/
+cd ~/.config
+mkdir geo
+cd geo
+echo foo > bar
+ls
+bast
+st
+sh
+ls
+cd ~/.dotfiles/.config/geo/
+ls
+touch foo
+ls
+cd rey
+ls
+..
+cd ~/.config/geo/
+ls
+mkdir sal
+cd sal/
+touch foo
+cd ~/.dot
+cd ~/.dotfiles/
+ls
+la
+stow .
+cd ~/.config/geo/
+..
+la
+cd geo
+la
+cd rey
+ls
+..
+pwd
+cd ~/.config/geo/rey/
+pwh
+pwd
+..
+stow -D .
+cd ~/.config/geo/
+la
+..
+rm -r geo/
+..
+rm -r .dotfiles/
+dotf clone ~ ./.dotfiles
+git clone ~/.dotbare ~/.dotfiles
+cd .dotfiles/
+la
+nv .config/n
+nv .config/nvim/
+git log --oneline
+dotf log --oneline -10
+git log --oneline -10
+git branrh
+git branch
+git remoto
+git remote
+dui branch
+dotf branch -a
+git branch +a
+git branch -a
+git remote -h
+git remote -v
+git remote -v show
+dotf remote
+dotf remote -v
+nv .termux/colors.properties
+nv .dotfiles/.config/nvim/lua/plugins/lsp/servers/init.lua
+cd .local/share/nvim/lazy/nvim-tree/lua/nvim-tree/git/
+git status
+..
+git status
+cd ~/.dotfiles/
+cd .config/nvim/
+cd lua/plugins/lsp/servers/
+..
+cd -
+la
+git status
+git difg
+git diff
+nv
+la
+nv
+..
+cd .termux/
+git status .
+git status
+..
+git status
+git restoro
+git restore
+git restore *
+git restore .
+zj
+zq
+upd
+nala list --upgradable
+config nu
+upg
+nvrc
+nvrc
+clear
+cd rustlings/
+ls
+rustlings -h
+rustlings --help
+rustlings lsp
+rustlings list
+glow README.md
+glw
+glow
+nv exercises/intro/intro1.rs
+rustlings list
+nvrc
+rustlings watch
+zj
+zq
+cd rustlings/
+rustlings watch
+nv exercises/
+zj
+upd
+nvrc
+nv projects/rust/book/minigrep/src/main.rs
+tput cols
+tput rows
+tput row
+tput -h
+tput line
+tput col
+tput lines
+tput col
+tput lines
+gg
+clear
+tput col
+tput line
+nvrc
+la
+./repos/xdg-ninja/xdg-ninja.sh
+env.home
+$env.XDG_STATE_HOME
+cd .local/state
+ls
+la 
+la ~
+cd
+a
+la
+./repos/xdg-ninja/xdg-ninja.sh --hesp
+./repos/xdg-ninja/xdg-ninja.sh --help
+./repos/xdg-ninja/xdg-ninja.sh help .vimrc
+touch .vimrc
+./repos/xdg-ninja/xdg-ninja.sh 
+rm .vimrc
+ls
+rm -r minigrep/
+cd storage/
+ls
+la
+ll
+cd /
+ls
+cd storage
+cd
+cd /storage/emulated
+cd 
+cd /storage/emulated/0
+cd /storage/emulated/'0'
+cd /storage/emulated/
+cd '0'
+cd
+su
+su nu
+ls
+cd rustlings/
+ls
+la
+git branch
+ls ~/../usr/bin/
+ls
+cd ~/projects/rust/book/minigrep/
+git status
+git diff
+cd
+nvrc
+cd ~/projects/rust/book/minigrep
+nv .
+git restore .
+nv .
+nvrc
+zj
+la
+ls
+ll
+(ls)
+(^ls)
+^ls
+^ls -l
+neofetch
+nu -n
+ls
+pwd
+cd .config/nvim/
+ls
+..
+cd .dotbare/
+ls
+nv
+fish
+upd
+nala list --upgradable
+upg
+upd
+fish
+dui
+la
+cd .dotfiles/
+la
+..
+rm -r .dotfiles/
+ls
+la
+mkdir stow; cd stow
+nv .config/nvim/init.lua
+ls
+mkdir .config/nvim/init.lua
+cd .config/nvim/
+rm init.lua/
+echo "print('lol')" | save init.lua
+cat init.lua 
+ls
+..
+stow .
+rm -r .config
+..
+rm stow/
+ls
+la
+cd test
+ls
+..
+rm -r test/
+ls
+chsh -h
+chsh -s bash
+zj
+ls
+hostname
+whoami
+whoami --help
+uname
+uname --telp
+uname --help
+uname -s
+uname -n
+uname -r
+uname -v
+uname -m
+uname -p
+uname -i
+uname -o
+uname -a
+$env.USER
+let-env USER = geo
+whoami
+ls
+cd .config
+ls
+nv starship.toml
+cd ~/.dotbare/
+ls
+...
+..
+ccd
+cd
+cd projects/rust/book/minigrep
+cd ~/.dotbare
+git status
+cd -
+$env.hostname
+nv ~/.config/starship.toml
+..
+nv ~/.config/starship.toml
+ls
+nv ~/.config/starship.toml
+ls
+nv ~/.config/starship.toml
+ll
+ls
+ll
+clear
+nv ~/.config/starship.toml
+ls
+nv ~/.config/starship.toml
+ls
+clear
+let-env SSH_CLIENT = 'what'
+ls
+nv ~/.config/starship.toml
+ls
+nv ~/.config/starship.tom
+ls
+clear
+ls
+ln
+ls
+cd ~/projects/rust/book/minigrep
+ls
+clear
+nv ~/.config/starship.toml
+zj
+fish
+cd ~/projects/lua
+ls
+cd zellij-nvim
+git init
+rm -r .git
+cd
+clear
+dotf status
+dui
+vj
+git log
+..
+.?
+..
+ls
+..
+ls
+zj
+man git-switch
+ls
+dotf status
+upd
+nala list --upgradable
+upg
+zj
+upd
+dotf branch
+man git-rm
+git read-tree --help
+git ls-files
+dotf ls-filos
+dotf ls-files
+dotf ls-files --help
+dotf ls-files -z
+man xargs
+dotf ls-files --hel
+dotf ls-files --help
+dotf ls-files --name-only
+dotf ls-tree
+dotf ls-tree --name-only
+dotf ls-tree --name-only HEAD
+dotf ls-tree HEAD
+dotf ls-tree --name-only -d
+dotf ls-tree --name-only -d HEAD
+dotf ls-tree --name-only HEAD
+dotf ls-tree --name-only -dr HEAD
+dotf ls-tree --name-only -dr HEAD | sort
+dotf ls-tree --name-only -dr HEAD | sort -rz
+sort -h
+^sort -h
+sh
+(^sort --help)
+man sort
+dotf ls-tree --name-only -dr HEAD | sort 
+dotf ls-tree --name-only -dr HEAD | sort -r
+dotf ls-tree --name-only -drz HEAD
+dotf ls-tree --name-only -drz HEAD | sort
+dotf ls-tree --name-only -drz HEAD | sort -r
+dotf ls-tree --name-only -dr HEAD
+dotf ls-tree --name-only -dr main
+which rmdir
+rmdir -h
+rmdir --help
+xargs --help
+echo lmao | xargs -p rm
+dotf ls-files
+dotf log
+dui
+git clone ~/.dotbare ~/.dotfiles
+cd .dotfiles/
+git loc
+git log
+gitui
+dotf ls-files | xargs -p rm
+dotf ls-files -z | xargs -0p r
+dotf ls-files -z | xargs -0p rm
+dotf ls-files -z 
+..
+dotf ls-files -z 
+dotf ls-files -z | xargs -0p rm
+dotf ls-files | xargs -p rm
+git push --help
+dotf remoto
+dotf remote
+dotf remote -v
+dotf push alt main
+uname -a
+upd
+nala list
+pkg help
+pkg list-installed
+clear
+pkg list-installed
+ls
+bat packs.txt 
+cluar
+clear
+pkg list-installed
+dotf status
+dotf add packs.txt
+dotf commit -m "Termux: Update list of packages installed"
+dotf push alt main
+zj
+bash
+hostname
+git config
+git config --get email
+git config --get-all
+git config --list
+git config --get user.email
+ls
+la
+cd .dotfiles/
+git status
+git log
+rm
+..
+rm .dotfiles -r
+ls
+la
+mkdir stow; cd stow
+mkdir .config/geo .config/rey
+touch .config/geo/foo .config/rey/foo
+stow .
+ls ~/.config/
+stow . -D
+ls ~/.config/
+stow -D .
+ls ~/.config/
+stow --help
+stow .config/geo/
+stow .config/geo
+la
+stow .config
+ls ~/.config/
+stow .
+ls ~/.config/
+stow -D .
+ls ~/.config/
+ls ~/.config/ | get name
+ls ~/.config/ | get name.0
+ls ~/.config/ | get name.8
+ls -h
+ls -s ~/.config
+ls
+cd ~/projects
+cd ~/projects/rust/book/minigrep
+ls
+git status
+hitui
+gituu
+gitui
+lazygit
+cd .config/
+nv ~/.config/lazygit/config.yml
+lazygit
+nv ~/.config/lazygit/config.yml
+lazygit
+lazygit -h
+lazygit -g ~/.dotbare -w 
+lazygit -g ~/.dotbare -w ~
+lazygit
+lazygit -g ~/.dotbare -w ~
+nv ~/.config/lazygit/config.yml
+zj
+upd
+dotf status
+dotf remote -v
+la
+cd .dotfiles/
+cd geo
+ls
+..
+ls
+..
+ls
+stow -D .
+..
+la
+cd stow/
+ls
+la
+stow -D .config
+cd
+la
+git clone git@codeberg.com:pseudoparenchymatous/.dotfiles
+ls
+la
+git clone git@codeberg.org:pseudoparenchymatous/.dotfiles
+cd .dotfiles/
+ls
+la
+git status
+git log
+..
+ls .dotfiles/ -du
+ls .dotfiles/ -d
+ls .dotfiles/
+ls .dotfiles/ --du
+ls -h
+ls .dotfiles/
+ls .dotfiles
+du .dotfiles/
+upd
+clear
+upd
+w
+man stow
+info stow
+man stow 
+git clone git@codeberg.org:pseudoparenchymatous/.dotfiles
+rm -r .dotfiles/
+git clone git@codeberg.org:pseudoparenchymatous/.dotfiles
+cd .dotfiles/
+la
+cd .local
+ls
+la
+cd share/
+ls
+fish/
+./fish
+ls
+..
+ls
+pa
+la
+nv .stow-local-ignore
+cat packs.txt 
+cat .stow-local-ignore 
+la
+cat .gitignore 
+./.git
+ls
+git status
+cat HEAD 
+cat config
+git branch
+git remote
+git remote -v
+cat description 
+cat i
+cat index 
+clear
+ls
+cat packed-refs
+cd logs/
+ll
+cat HEAD
+la
+cd refs
+ls
+ch ~/.dotfiles/
+cd ~/.dotfiles/
+ls
+git status
+git diff
+ls
+git rm .gitignore
+ls
+git status
+git diff
+git add .stow-local-ignore
+git status
+ls
+git commit -m "Migrate to `Stow` in managing dotfiles"
+git log --oneline
+gitui
+duu
+dui
+cd
+j
+cd .config/nushell/scripts/
+..
+la
+cd share/
+cd scripts/
+ll
+cd nu_scripts
+git status
+cd .dotfiles/
+cd .config/nushell/scripts/
+cd .config/nushell/
+ls
+mkdir scripts
+cd scripts/
+ls
+ls
+git status
+clear
+git remote -v
+git submodules add git@github.com:nushell/nu_scripts.git
+git submodule add git@github.com:nushell/nu_scripts.git
+la
+git status
+..
+../..
+ls
+la
+cat .gi
+cat .gitmodules 
+git add .
+git status
+cd .config/nushell/scripts/nu_scripts/
+git status
+git log --oneline
+cd ~/.dotfiles/
+git status
+git commit -m "Nushell: Add `nu_scripts` as submodule"
+git log --oneline -4
+git log --oneline
+cd ~/.config/
+la
+rm -r git fish gitui helix npm tmux zellij zsh
+la
+stow .
+nv
+git status
+git log --oneline
+dotf log --oneline
+git status
+dui
