@@ -1,5 +1,5 @@
 alias nv = nvim
-alias nvrc = nvim ~/.config/nvim
+alias nvrc = nvim ~/.dotfiles/.config/nvim
 alias dui = gitui --directory ~/.dotbare --workdir ~
 alias dotf = git --git-dir ~/.dotbare --work-tree ~
 alias upd = nala update
