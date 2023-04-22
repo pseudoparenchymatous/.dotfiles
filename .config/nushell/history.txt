@@ -2766,3 +2766,191 @@ git log --oneline
 dotf log --oneline
 git status
 dui
+gitui
+git status
+..
+ls
+la
+cd .git/
+..
+rm packs.txt
+cd .dotfiles/
+la
+nv .stow-local-ignore
+..
+ls
+la
+clear
+cat .stow-local-ignore
+git status
+stow -R .
+cat .gitignore
+rm .gitignore
+bash
+cd ~/.git
+pwd
+ls
+..
+ls
+bash
+..
+ls
+rm foo
+ls ~/.dotfiles/
+rm ~/.dotfiles/foo
+nvrc
+n
+src
+nvrc
+..
+cd
+config nu
+la ~/.config/
+la ~/.config/ -s
+la
+zj
+nvrc
+upd
+cd .dotfiles/
+git
+git s
+git status
+dotf log --oneline
+git log --oneline
+ls
+gitei
+gituu
+gitui
+nvrc
+nvrr
+nv .config/nvim/init.lua
+nvrc
+nv ~/.dotfiles/.config/nvim/
+config nu
+nvrc
+nvrc
+reset
+nvrc
+nvrr
+nvrc
+gitui ~/.dotfiles
+cd .dotfiles
+gitui
+zj
+upd
+nv ~/.config/nvim/
+la
+rm .dotbare/ -r
+git clone --bare git@codeberg:pseudoparenchymatous/.dotfiles.git .dotbare
+git clone --bare git@codeberg.org:pseudoparenchymatous/.dotfiles.git .dotbare
+dotf status
+open
+open http://google.com
+mkdir .config/nvim2/
+cp .dotfiles/.config/nvim/ .config/nvim4
+cp .dotfiles/.config/nvim/ .config/nvim3 -r
+cp .config/nvim3/
+mv .config/nvim3/
+la
+cd .config/nvi
+cd .config/nvim3
+la
+nv .
+nv
+nv .
+nv
+dotf rev-parse
+dotf rev-parse --absolute-git-dir
+nv .
+nv
+nvrc
+cd ../nvim2/
+ls
+git init
+touch foo
+git add .
+git commit -m "Foo"
+git log
+nv ../nvim3/
+..
+nv nvi
+nv nvim3
+nv nvim3/
+nv ../nvim3/
+nvrc
+cd
+nv ~/.config/nvi
+nv ~/.config/nvim3
+cd ~/.config/nvim
+..
+cd
+cd ~/.config/nvim
+cd ~/.config/nvim2
+touch bar
+nv ~/.config/nvim3
+nvrc
+nv ~/.dotfiles/.config/nvim/
+nv
+cd
+nvrc
+cd
+ls
+cd example
+tree
+pud
+upd
+nala install tree
+tree
+nv nested/dir/ect/ory/work
+nv nested/dir/ect/ory/
+nv nested/dir/ect/ory/work
+nv nested/dir/ect/ory/work/
+nv nested/dir/ect/ory/
+cd nested/dir/ect/ory/
+mkdir work2
+cd work2/
+git init
+touch foo
+git add foo
+git commit -m "Foo"
+touch bar
+ch -
+cd -
+cd ~/example/
+nv nested/dir/ect/ory/wor
+nv nested/dir/ect/ory/work/bar
+nv nested/dir/ect/ory/wor
+nv nested/dir/ect/ory/work2
+cd nested/dir/ect/ory/
+rm wor
+rm work2 -r
+mkdir work2;cd work2
+git init
+touch foo
+nv .
+nv ../work/bar
+..
+nv
+nv 
+nv work/
+nv
+cd
+cd .config/
+la
+rm nvim2 nvim3 -r
+la
+nvrc
+nvrc
+zj
+man stow
+cd .dotfiles/.config/
+ls
+cd fish/
+la
+tree
+git branch
+giteu
+gdtui
+cd
+cd .dotfiles/.
+nv
