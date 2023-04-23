@@ -2954,3 +2954,20 @@ gdtui
 cd
 cd .dotfiles/.
 nv
+gitui
+git branch new_fish
+git switch new_fish
+nvrc
+cd .config/
+rm -r fish/
+git status
+gitui
+chsh -s fish
+zj
+cd .config/
+ls
+rm fish
+..
+cd .dotfiles/
+stow .
+chsh -s fish
