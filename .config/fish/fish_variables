@@ -2,7 +2,7 @@
 # VERSION: 3.0
 SETUVAR --export BAT_THEME:gruvbox\x2ddark
 SETUVAR --export CARGO_HOME:/data/data/com\x2etermux/files/home/\x2elocal/share/cargo
-SETUVAR --export EDITOL:nvim
+SETUVAR --export EDITOR:nvim
 SETUVAR --export --path GOPATH:/data/data/com\x2etermux/files/home/\x2elocal/share/go
 SETUVAR --export NODE_REPL_HISTORY:/data/data/com\x2etermux/files/home/\x2elocal/share/node_repl_history
 SETUVAR --export NPM_CONFIG_USERCONFIG:/data/data/com\x2etermux/files/home/\x2econfig/npm/npmrc
